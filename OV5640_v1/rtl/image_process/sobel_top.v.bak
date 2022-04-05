@@ -1,0 +1,47 @@
+module sobel_top(
+    // sys
+    input                               vga_clk                    ,
+    // input
+    input                               iVGA_de,iVGA_hs,iVGA_vs    ,
+    input              [  15:0]         iRGB_565                   ,//  RGB565格式
+    // output
+    output                              oVGA_hs,oVGA_vs,oVGA_de    ,
+    output             [  15:0]         sobel_data                  
+);
+
+wire                                    gray_de,gray_hs,gray_vs    ;
+wire                   [   7:0]         gray_data                  ;
+
+YCbCr u_YCbCr(
+    // sys
+    .clk                               (vga_clk                   ),
+    // input
+    .RGB_de                            (iVGA_de                   ),
+    .RGB_hsync                         (iVGA_hs                   ),
+    .RGB_vsync                         (iVGA_vs                   ),
+    .RGB_data                          (iRGB_565[15:0]            ),
+    // output
+    .gray_de                           (gray_de                   ),
+    .gray_hsync                        (gray_hs                   ),
+    .gray_vsync                        (gray_vs                   ),
+    .gray_data                         (gray_data[7:0]            ) 
+);
+
+sobel_filtering u_sobel_filtering(
+    // sys
+    .clk                               (clk                       ),
+    // param
+    .key_value                         (100                       ),
+    // input
+    .Y_data                            (gray_data[7:0]            ),
+    .Y_de                              (gray_de                   ),
+    .Y_hsync                           (gray_hs                   ),
+    .Y_vsync                           (gray_vs                   ),
+    // output
+    .sobel_hsync                       (oVGA_hs                   ),
+    .sobel_vsync                       (oVGA_vs                   ),
+    .sobel_de                          (oVGA_de                   ),
+    .sobel_data                        (sobel_data[15:0]          ) 
+);
+
+endmodule

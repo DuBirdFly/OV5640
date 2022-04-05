@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 23 18:53:31 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : OV5640
+Top-level Entity Name : ov5640_pip
+Family : Cyclone IV E
+Total logic elements : 2,887
+    Total combinational functions : 2,346
+    Dedicated logic registers : 1,442
+Total registers : 1442
+Total pins : 101
+Total virtual pins : 0
+Total memory bits : 141,280
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2

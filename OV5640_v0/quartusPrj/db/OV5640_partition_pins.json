@@ -1,0 +1,409 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DRAM_ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_ADDR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_LDQM",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_UDQM",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_WE_N",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_CAS_N",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_RAS_N",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_CS_N",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_BA_0",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_BA_1",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_CKE",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_VS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_SCL",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_RESET",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_SCL",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_RESET",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DIG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DRAM_DQ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_SDA",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_SDA",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "iKEY",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_VSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_VSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_PCLK",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_PCLK",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_HREF",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_HREF",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS1_D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CMOS2_D[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
