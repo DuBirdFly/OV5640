@@ -70,9 +70,6 @@ initial begin
     #(SYS_PERIOD*2) rst_n  =  0;
 end
 
-
-
-
 // sobel_data
 always @(*) begin
     if(data_men[Coord_X+Coord_Y*COL] == 1'b1)begin
