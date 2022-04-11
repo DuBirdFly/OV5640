@@ -17,10 +17,10 @@ module color_bar(
     output                              oVGA_BLANK                 ,// useless,assign oVGA_BLANK = oVGA_H_SYNC & oVGA_V_SYNC;
     output                              oVGA_CLOCK                 ,// uesless,assign oVGA_CLOCK =	iCLK;
     output                              oVGA_DE                    ,// video valid，video_active = h_active & v_active
-    output                              oVGA_DE_r                  ,// video valid，video_active = h_active & v_active 的打一拍
+    output                              oVGA_DE_r                  ,// oVGA_DE的打一拍
     //	Control Signal
     input                               iCLK                       ,// pixel clock
-    input                               rst                         // reset signal high active
+    input                               rst                         // reset signal high active, rst == ~rst_n
 );
 
 /**

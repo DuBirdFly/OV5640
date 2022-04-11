@@ -2,7 +2,7 @@
 可以删掉的测试文件
 */
 
-module vga_test (
+module tb_color_bar (
     ////////////////////////	SYS Input	 	////////////////////////
     input  wire                         CLOCK_50                   ,//	50 MHz
     input  wire                         RST_N                      ,
