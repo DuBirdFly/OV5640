@@ -1,7 +1,12 @@
 `include "video_define.v"
 
 
-// 注意: iRed, iGreen, iBlue 和 oVGA_R, oVGA_G, oVGA_B 中一个iCLK(video clk)的延时
+// 注意: 输入的iRed, iGreen, iBlue 和 输出的oVGA_R, oVGA_G, oVGA_B 中一个iCLK(video clk)的延时
+// oCoord_X : 0 1 2 ... (COL-1) COL COL ... COL 0 1 2 ...
+// h_active : 1 1 1 ...    1     0   0  ...  0  1 1 1 ...
+// oCoord_Y : 0 1 2 ... (ROW-1) ROW ROW ... ROW 0 1 2 ...
+// v_active : 1 1 1 ...    1     0   0  ...  0  1 1 1 ...
+// oVGA_DE = (h_active & v_active) = (oCoord_X != COL && oCoord_Y != ROW)
 module color_bar(
     //	Host Side
     input              [   9:0]         iRed                       ,// 事实上有用的只有[9:2]
