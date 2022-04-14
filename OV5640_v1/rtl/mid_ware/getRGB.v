@@ -31,10 +31,10 @@ assign Read_DATA2_G = {Read_DATA2[10: 5], 4'd0};
 assign Read_DATA2_B = {Read_DATA2[15:11], 5'd0};
 
 ///////////////640*480////////////////
-assign Pic_1     = VGA_DE && (X_ADDR>=0    ) && (X_ADDR<320   ) && (Y_ADDR>=0) && (Y_ADDR<240  );// 划定 pic_1 的实际位置
-assign Read1     = VGA_DE && (X_ADDR>=0    ) && (X_ADDR<320   ) && (Y_ADDR>=0) && (Y_ADDR<240  );
-assign Pic_2     = VGA_DE && (X_ADDR>=320  ) && (X_ADDR<640   ) && (Y_ADDR>=0) && (Y_ADDR<240  );// 划定 pic_2 的实际位置
-assign Read2     = VGA_DE && (X_ADDR>=320-1) && (X_ADDR<640-1 ) && (Y_ADDR>=0) && (Y_ADDR<240+9);//
+assign Pic_1 = VGA_DE && (X_ADDR>=0    ) && (X_ADDR<320   ) && (Y_ADDR>=0) && (Y_ADDR<240  );// 划定 pic_1 的实际位置
+assign Read1 = VGA_DE && (X_ADDR>=0    ) && (X_ADDR<320   ) && (Y_ADDR>=0) && (Y_ADDR<240  );
+assign Pic_2 = VGA_DE && (X_ADDR>=320  ) && (X_ADDR<640   ) && (Y_ADDR>=0) && (Y_ADDR<240  );// 划定 pic_2 的实际位置
+assign Read2 = VGA_DE && (X_ADDR>=320-2) && (X_ADDR<640-2 ) && (Y_ADDR>=0) && (Y_ADDR<240+8);
 
 always @(*) begin
     if (Pic_1) begin

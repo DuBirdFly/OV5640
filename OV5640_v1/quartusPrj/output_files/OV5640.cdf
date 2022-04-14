@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6F17) Path("D:/PrjWorkspace/OV5640/quartusPrj/output_files/") File("OV5640.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE6F17) Path("D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/output_files/") File("OV5640.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

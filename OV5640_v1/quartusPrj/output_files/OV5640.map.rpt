@@ -1,5 +1,5 @@
 Analysis & Synthesis report for OV5640
-Mon Apr 11 18:54:32 2022
+Thu Apr 14 21:44:19 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 
 
@@ -146,13 +146,13 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 11 18:54:32 2022           ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 14 21:44:19 2022           ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
 ; Revision Name                      ; OV5640                                          ;
 ; Top-level Entity Name              ; ov5640_pip                                      ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 2,887                                           ;
-;     Total combinational functions  ; 2,346                                           ;
+; Total logic elements               ; 2,888                                           ;
+;     Total combinational functions  ; 2,349                                           ;
 ;     Dedicated logic registers      ; 1,442                                           ;
 ; Total registers                    ; 1442                                            ;
 ; Total pins                         ; 101                                             ;
@@ -363,17 +363,17 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                                                                                   ;
 +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 2,887                                                                                                                                   ;
+; Estimated Total logic elements              ; 2,888                                                                                                                                   ;
 ;                                             ;                                                                                                                                         ;
-; Total combinational functions               ; 2346                                                                                                                                    ;
+; Total combinational functions               ; 2349                                                                                                                                    ;
 ; Logic element usage by number of LUT inputs ;                                                                                                                                         ;
-;     -- 4 input functions                    ; 1339                                                                                                                                    ;
-;     -- 3 input functions                    ; 503                                                                                                                                     ;
+;     -- 4 input functions                    ; 1346                                                                                                                                    ;
+;     -- 3 input functions                    ; 499                                                                                                                                     ;
 ;     -- <=2 input functions                  ; 504                                                                                                                                     ;
 ;                                             ;                                                                                                                                         ;
 ; Logic elements by mode                      ;                                                                                                                                         ;
-;     -- normal mode                          ; 1859                                                                                                                                    ;
-;     -- arithmetic mode                      ; 487                                                                                                                                     ;
+;     -- normal mode                          ; 1858                                                                                                                                    ;
+;     -- arithmetic mode                      ; 491                                                                                                                                     ;
 ;                                             ;                                                                                                                                         ;
 ; Total registers                             ; 1442                                                                                                                                    ;
 ;     -- Dedicated logic registers            ; 1442                                                                                                                                    ;
@@ -389,8 +389,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                                                                         ;
 ; Maximum fan-out node                        ; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component|Sdram_PLL_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 636                                                                                                                                     ;
-; Total fan-out                               ; 14782                                                                                                                                   ;
-; Average fan-out                             ; 3.61                                                                                                                                    ;
+; Total fan-out                               ; 14822                                                                                                                                   ;
+; Average fan-out                             ; 3.62                                                                                                                                    ;
 +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -399,11 +399,11 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                             ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                           ; Entity Name         ; Library Name ;
 +--------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |ov5640_pip                                            ; 2346 (1)            ; 1442 (0)                  ; 141280      ; 0            ; 0       ; 0         ; 101  ; 0            ; |ov5640_pip                                                                                                                                                                                                   ; ov5640_pip          ; work         ;
+; |ov5640_pip                                            ; 2349 (1)            ; 1442 (0)                  ; 141280      ; 0            ; 0       ; 0         ; 101  ; 0            ; |ov5640_pip                                                                                                                                                                                                   ; ov5640_pip          ; work         ;
 ;    |CMOS_Capture:u1_CMOS_Capture|                      ; 21 (21)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|CMOS_Capture:u1_CMOS_Capture                                                                                                                                                                      ; CMOS_Capture        ; work         ;
 ;    |CMOS_Capture:u2_CMOS_Capture|                      ; 21 (21)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|CMOS_Capture:u2_CMOS_Capture                                                                                                                                                                      ; CMOS_Capture        ; work         ;
 ;    |Reset_Delay:u_Reset_Delay|                         ; 33 (33)             ; 25 (25)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Reset_Delay:u_Reset_Delay                                                                                                                                                                         ; Reset_Delay         ; work         ;
-;    |Sdram_Control_4Port:u_Sdram_Control_4Port|         ; 773 (240)           ; 796 (140)                 ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port                                                                                                                                                         ; Sdram_Control_4Port ; work         ;
+;    |Sdram_Control_4Port:u_Sdram_Control_4Port|         ; 769 (240)           ; 796 (140)                 ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port                                                                                                                                                         ; Sdram_Control_4Port ; work         ;
 ;       |Sdram_FIFO:read_fifo1|                          ; 103 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1                                                                                                                                   ; Sdram_FIFO          ; work         ;
 ;          |dcfifo:dcfifo_component|                     ; 103 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component                                                                                                           ; dcfifo              ; work         ;
 ;             |dcfifo_gbo1:auto_generated|               ; 103 (18)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                                ; dcfifo_gbo1         ; work         ;
@@ -420,28 +420,28 @@ refer to the applicable agreement for further details.
 ;                |cmpr_p76:wrfull_eq_comp|               ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:wrfull_eq_comp                                                        ; cmpr_p76            ; work         ;
 ;                |dffpipe_qe9:ws_brp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:ws_brp                                                             ; dffpipe_qe9         ; work         ;
 ;                |dffpipe_qe9:ws_bwp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:ws_bwp                                                             ; dffpipe_qe9         ; work         ;
-;       |Sdram_FIFO:read_fifo2|                          ; 103 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2                                                                                                                                   ; Sdram_FIFO          ; work         ;
-;          |dcfifo:dcfifo_component|                     ; 103 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component                                                                                                           ; dcfifo              ; work         ;
-;             |dcfifo_gbo1:auto_generated|               ; 103 (19)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                                ; dcfifo_gbo1         ; work         ;
+;       |Sdram_FIFO:read_fifo2|                          ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2                                                                                                                                   ; Sdram_FIFO          ; work         ;
+;          |dcfifo:dcfifo_component|                     ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component                                                                                                           ; dcfifo              ; work         ;
+;             |dcfifo_gbo1:auto_generated|               ; 101 (19)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                                ; dcfifo_gbo1         ; work         ;
 ;                |a_gray2bin_8ib:wrptr_g_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:wrptr_g_gray2bin                                                ; a_gray2bin_8ib      ; work         ;
 ;                |a_gray2bin_8ib:ws_dgrp_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:ws_dgrp_gray2bin                                                ; a_gray2bin_8ib      ; work         ;
 ;                |a_graycounter_3lc:wrptr_g1p|           ; 22 (22)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p                                                    ; a_graycounter_3lc   ; work         ;
-;                |a_graycounter_777:rdptr_g1p|           ; 25 (25)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p                                                    ; a_graycounter_777   ; work         ;
+;                |a_graycounter_777:rdptr_g1p|           ; 24 (24)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p                                                    ; a_graycounter_777   ; work         ;
 ;                |alt_synch_pipe_apl:rs_dgwp|            ; 0 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp                                                     ; alt_synch_pipe_apl  ; work         ;
 ;                   |dffpipe_re9:dffpipe13|              ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp|dffpipe_re9:dffpipe13                               ; dffpipe_re9         ; work         ;
 ;                |alt_synch_pipe_bpl:ws_dgrp|            ; 0 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp                                                     ; alt_synch_pipe_bpl  ; work         ;
 ;                   |dffpipe_se9:dffpipe16|              ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp|dffpipe_se9:dffpipe16                               ; dffpipe_se9         ; work         ;
 ;                |altsyncram_2u81:fifo_ram|              ; 0 (0)               ; 0 (0)                     ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|altsyncram_2u81:fifo_ram                                                       ; altsyncram_2u81     ; work         ;
-;                |cmpr_p76:rdempty_eq_comp|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:rdempty_eq_comp                                                       ; cmpr_p76            ; work         ;
+;                |cmpr_p76:rdempty_eq_comp|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:rdempty_eq_comp                                                       ; cmpr_p76            ; work         ;
 ;                |cmpr_p76:wrfull_eq_comp|               ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:wrfull_eq_comp                                                        ; cmpr_p76            ; work         ;
 ;                |dffpipe_qe9:ws_brp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:ws_brp                                                             ; dffpipe_qe9         ; work         ;
 ;                |dffpipe_qe9:ws_bwp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:ws_bwp                                                             ; dffpipe_qe9         ; work         ;
-;       |Sdram_FIFO:write_fifo1|                         ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1                                                                                                                                  ; Sdram_FIFO          ; work         ;
-;          |dcfifo:dcfifo_component|                     ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component                                                                                                          ; dcfifo              ; work         ;
-;             |dcfifo_gbo1:auto_generated|               ; 101 (17)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                               ; dcfifo_gbo1         ; work         ;
+;       |Sdram_FIFO:write_fifo1|                         ; 100 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1                                                                                                                                  ; Sdram_FIFO          ; work         ;
+;          |dcfifo:dcfifo_component|                     ; 100 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component                                                                                                          ; dcfifo              ; work         ;
+;             |dcfifo_gbo1:auto_generated|               ; 100 (17)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                               ; dcfifo_gbo1         ; work         ;
 ;                |a_gray2bin_8ib:rdptr_g_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rdptr_g_gray2bin                                               ; a_gray2bin_8ib      ; work         ;
 ;                |a_gray2bin_8ib:rs_dgwp_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rs_dgwp_gray2bin                                               ; a_gray2bin_8ib      ; work         ;
-;                |a_graycounter_3lc:wrptr_g1p|           ; 24 (24)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p                                                   ; a_graycounter_3lc   ; work         ;
+;                |a_graycounter_3lc:wrptr_g1p|           ; 23 (23)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p                                                   ; a_graycounter_3lc   ; work         ;
 ;                |a_graycounter_777:rdptr_g1p|           ; 24 (24)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p                                                   ; a_graycounter_777   ; work         ;
 ;                |alt_synch_pipe_apl:rs_dgwp|            ; 0 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp                                                    ; alt_synch_pipe_apl  ; work         ;
 ;                   |dffpipe_re9:dffpipe13|              ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp|dffpipe_re9:dffpipe13                              ; dffpipe_re9         ; work         ;
@@ -452,12 +452,12 @@ refer to the applicable agreement for further details.
 ;                |cmpr_p76:wrfull_eq_comp|               ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:wrfull_eq_comp                                                       ; cmpr_p76            ; work         ;
 ;                |dffpipe_qe9:rs_brp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:rs_brp                                                            ; dffpipe_qe9         ; work         ;
 ;                |dffpipe_qe9:rs_bwp|                    ; 0 (0)               ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:rs_bwp                                                            ; dffpipe_qe9         ; work         ;
-;       |Sdram_FIFO:write_fifo2|                         ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2                                                                                                                                  ; Sdram_FIFO          ; work         ;
-;          |dcfifo:dcfifo_component|                     ; 101 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component                                                                                                          ; dcfifo              ; work         ;
-;             |dcfifo_gbo1:auto_generated|               ; 101 (17)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                               ; dcfifo_gbo1         ; work         ;
+;       |Sdram_FIFO:write_fifo2|                         ; 100 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2                                                                                                                                  ; Sdram_FIFO          ; work         ;
+;          |dcfifo:dcfifo_component|                     ; 100 (0)             ; 138 (0)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component                                                                                                          ; dcfifo              ; work         ;
+;             |dcfifo_gbo1:auto_generated|               ; 100 (17)            ; 138 (36)                  ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated                                                                               ; dcfifo_gbo1         ; work         ;
 ;                |a_gray2bin_8ib:rdptr_g_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rdptr_g_gray2bin                                               ; a_gray2bin_8ib      ; work         ;
 ;                |a_gray2bin_8ib:rs_dgwp_gray2bin|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rs_dgwp_gray2bin                                               ; a_gray2bin_8ib      ; work         ;
-;                |a_graycounter_3lc:wrptr_g1p|           ; 24 (24)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p                                                   ; a_graycounter_3lc   ; work         ;
+;                |a_graycounter_3lc:wrptr_g1p|           ; 23 (23)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p                                                   ; a_graycounter_3lc   ; work         ;
 ;                |a_graycounter_777:rdptr_g1p|           ; 24 (24)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p                                                   ; a_graycounter_777   ; work         ;
 ;                |alt_synch_pipe_apl:rs_dgwp|            ; 0 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp                                                    ; alt_synch_pipe_apl  ; work         ;
 ;                   |dffpipe_re9:dffpipe13|              ; 0 (0)               ; 24 (24)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp|dffpipe_re9:dffpipe13                              ; dffpipe_re9         ; work         ;
@@ -476,16 +476,16 @@ refer to the applicable agreement for further details.
 ;    |clock_pll:u_clok_pll|                              ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|clock_pll:u_clok_pll                                                                                                                                                                              ; clock_pll           ; work         ;
 ;       |altpll:altpll_component|                        ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|clock_pll:u_clok_pll|altpll:altpll_component                                                                                                                                                      ; altpll              ; work         ;
 ;          |clock_pll_altpll:auto_generated|             ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|clock_pll:u_clok_pll|altpll:altpll_component|clock_pll_altpll:auto_generated                                                                                                                      ; clock_pll_altpll    ; work         ;
-;    |cmos2_reg_config:cmos_config_1|                    ; 463 (425)           ; 63 (54)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_1                                                                                                                                                                    ; cmos2_reg_config    ; work         ;
+;    |cmos2_reg_config:cmos_config_1|                    ; 466 (428)           ; 63 (54)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_1                                                                                                                                                                    ; cmos2_reg_config    ; work         ;
 ;       |i2c_com:u1|                                     ; 38 (38)             ; 9 (9)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_1|i2c_com:u1                                                                                                                                                         ; i2c_com             ; work         ;
-;    |cmos2_reg_config:cmos_config_2|                    ; 439 (402)           ; 47 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_2                                                                                                                                                                    ; cmos2_reg_config    ; work         ;
+;    |cmos2_reg_config:cmos_config_2|                    ; 441 (404)           ; 47 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_2                                                                                                                                                                    ; cmos2_reg_config    ; work         ;
 ;       |i2c_com:u1|                                     ; 37 (37)             ; 9 (9)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|cmos2_reg_config:cmos_config_2|i2c_com:u1                                                                                                                                                         ; i2c_com             ; work         ;
-;    |color_bar:u_color_bar|                             ; 108 (108)           ; 68 (68)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|color_bar:u_color_bar                                                                                                                                                                             ; color_bar           ; work         ;
+;    |color_bar:u_color_bar|                             ; 112 (112)           ; 68 (68)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|color_bar:u_color_bar                                                                                                                                                                             ; color_bar           ; work         ;
 ;    |getPos:u_getPos|                                   ; 3 (0)               ; 6 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getPos:u_getPos                                                                                                                                                                                   ; getPos              ; work         ;
 ;       |getPosedge:u1_getPosedge|                       ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getPos:u_getPos|getPosedge:u1_getPosedge                                                                                                                                                          ; getPosedge          ; work         ;
 ;       |getPosedge:u2_getPosedge|                       ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getPos:u_getPos|getPosedge:u2_getPosedge                                                                                                                                                          ; getPosedge          ; work         ;
 ;       |getPosedge:u3_getPosedge|                       ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getPos:u_getPos|getPosedge:u3_getPosedge                                                                                                                                                          ; getPosedge          ; work         ;
-;    |getRGB:inst_getRGB|                                ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getRGB:inst_getRGB                                                                                                                                                                                ; getRGB              ; work         ;
+;    |getRGB:inst_getRGB|                                ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|getRGB:inst_getRGB                                                                                                                                                                                ; getRGB              ; work         ;
 ;    |key:u_key|                                         ; 42 (42)             ; 31 (31)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|key:u_key                                                                                                                                                                                         ; key                 ; work         ;
 ;    |seg_dynamic:u_seg_dynamic|                         ; 149 (61)            ; 113 (41)                  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|seg_dynamic:u_seg_dynamic                                                                                                                                                                         ; seg_dynamic         ; work         ;
 ;       |binary_8421:binary_8421_inst|                   ; 88 (88)             ; 72 (72)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst                                                                                                                                            ; binary_8421         ; work         ;
@@ -827,7 +827,9 @@ Encoding Type:  One-Hot
 ; sobel_top:u_sobel_top|YCbCr:u_YCbCr|G1[0]                                                                                                          ; Stuck at GND due to stuck port data_in                                                    ;
 ; seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|shift_flag                                                                                  ; Merged with seg_dynamic:u_seg_dynamic|cnt_1ms[0]                                          ;
 ; seg_dynamic:u_seg_dynamic|cnt_1ms[1]                                                                                                               ; Merged with seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|cnt_shift[0]           ;
-; Total Number of Removed Registers = 144                                                                                                            ;                                                                                           ;
+; color_bar:u_color_bar|active_x[11]                                                                                                                 ; Lost fanout                                                                               ;
+; color_bar:u_color_bar|active_y[11]                                                                                                                 ; Lost fanout                                                                               ;
+; Total Number of Removed Registers = 146                                                                                                            ;                                                                                           ;
 +----------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
 
@@ -850,11 +852,11 @@ Encoding Type:  One-Hot
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 1442  ;
-; Number of registers using Synchronous Clear  ; 81    ;
+; Number of registers using Synchronous Clear  ; 103   ;
 ; Number of registers using Synchronous Load   ; 122   ;
 ; Number of registers using Asynchronous Clear ; 1074  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 501   ;
+; Number of registers using Clock Enable       ; 502   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -865,7 +867,7 @@ Encoding Type:  One-Hot
 ; Inverted Register                                                                                                                                          ; Fan out ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[2]                                                                                                     ; 12      ;
-; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[3]                                                                                                     ; 17      ;
+; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[3]                                                                                                     ; 15      ;
 ; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[4]                                                                                                     ; 7       ;
 ; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[5]                                                                                                     ; 7       ;
 ; cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[2]                                                                                                     ; 11      ;
@@ -873,7 +875,7 @@ Encoding Type:  One-Hot
 ; cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[4]                                                                                                     ; 7       ;
 ; cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[5]                                                                                                     ; 7       ;
 ; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[1]                                                                                                     ; 13      ;
-; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[0]                                                                                                     ; 12      ;
+; cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[0]                                                                                                     ; 15      ;
 ; cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[1]                                                                                                     ; 12      ;
 ; cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[0]                                                                                                     ; 14      ;
 ; Sdram_Control_4Port:u_Sdram_Control_4Port|rRD2_ADDR[9]                                                                                                     ; 3       ;
@@ -909,9 +911,9 @@ Encoding Type:  One-Hot
 ; CMOS_Capture:u2_CMOS_Capture|mCMOS_VSYNC                                                                                                                   ; 1       ;
 ; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p|parity9    ; 5       ;
 ; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|counter5a0  ; 7       ;
-; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|counter5a0  ; 8       ;
+; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|counter5a0  ; 7       ;
 ; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|parity6     ; 4       ;
-; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|parity6     ; 2       ;
+; Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p|parity6     ; 3       ;
 ; Total number of inverted registers = 48                                                                                                                    ;         ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
@@ -921,35 +923,37 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------+
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|BA[0]              ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|control_interface:control1|timer[8] ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|command_delay[0]   ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |ov5640_pip|CMOS_Capture:u2_CMOS_Capture|Pre_CMOS_iDATA[1]                                ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|BA[1]              ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|control_interface:control1|timer[2] ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|command_delay[3]   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |ov5640_pip|CMOS_Capture:u2_CMOS_Capture|Pre_CMOS_iDATA[3]                                ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |ov5640_pip|CMOS_Capture:u1_CMOS_Capture|Pre_CMOS_iDATA[2]                                ;
-; 3:1                ; 20 bits   ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|key:u_key|timer[13]                                                           ;
-; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[18]         ;
-; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[2]          ;
-; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|SA[11]             ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 16 LEs               ; 4 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|DIG_NUM[0]                                          ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|rp_shift[2]        ;
-; 4:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD2_ADDR[13]                       ;
-; 4:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD1_ADDR[17]                       ;
-; 4:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rWR2_ADDR[17]                       ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rWR1_ADDR[17]                       ;
+; 3:1                ; 20 bits   ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|key:u_key|timer[5]                                                            ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[19]         ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[10]         ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |ov5640_pip|color_bar:u_color_bar|active_y[3]                                             ;
+; 3:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |ov5640_pip|color_bar:u_color_bar|active_x[7]                                             ;
+; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|SA[5]              ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 16 LEs               ; 4 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|DIG_NUM[2]                                          ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1|rp_shift[0]        ;
+; 4:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD2_ADDR[17]                       ;
+; 4:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD1_ADDR[10]                       ;
+; 4:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rWR2_ADDR[19]                       ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rWR1_ADDR[13]                       ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[40]         ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[22]         ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[21]         ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[26]         ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[30]         ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[35]         ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[39]         ;
-; 5:1                ; 15 bits   ; 45 LEs        ; 30 LEs               ; 15 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|mADDR[22]                           ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|CMD[1]                              ;
-; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|mWR                                 ;
-; 7:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|RD_MASK[1]                          ;
-; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|ST[8]                               ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[0]                        ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[0]                        ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|color_bar:u_color_bar|rgb_r_reg[0]                                            ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[33]         ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |ov5640_pip|seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst|data_shift[38]         ;
+; 5:1                ; 15 bits   ; 45 LEs        ; 30 LEs               ; 15 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|mADDR[8]                            ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|CMD[0]                              ;
+; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|WR_MASK[0]                          ;
+; 7:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|RD_MASK[0]                          ;
+; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|ST[1]                               ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|cmos2_reg_config:cmos_config_1|i2c_com:u1|cyc_count[3]                        ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |ov5640_pip|cmos2_reg_config:cmos_config_2|i2c_com:u1|cyc_count[4]                        ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |ov5640_pip|color_bar:u_color_bar|rgb_r_reg[3]                                            ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD2_ADDR[9]                        ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |ov5640_pip|Sdram_Control_4Port:u_Sdram_Control_4Port|rRD1_ADDR[13]                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------+
@@ -1879,6 +1883,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; VS_POL         ; 0                ; Unsigned Binary                ;
 ; H_TOTAL        ; 0000001100100000 ; Unsigned Binary                ;
 ; V_TOTAL        ; 0000001000001101 ; Unsigned Binary                ;
+; H_PASSIVE      ; 0000000010100000 ; Unsigned Binary                ;
+; V_PASSIVE      ; 0000000000101101 ; Unsigned Binary                ;
 +----------------+------------------+--------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2892,7 +2898,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; oVGA_SYNC  ; Output ; Info     ; Explicitly unconnected                                                                                                          ;
 ; oVGA_BLANK ; Output ; Info     ; Explicitly unconnected                                                                                                          ;
 ; oVGA_CLOCK ; Output ; Info     ; Explicitly unconnected                                                                                                          ;
-; oVGA_DE_r  ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                        ;
 +------------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2963,12 +2968,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; boundary_port         ; 101                         ;
 ; cycloneiii_ff         ; 1442                        ;
-;     CLR               ; 605                         ;
+;     CLR               ; 604                         ;
 ;     CLR SCLR          ; 23                          ;
 ;     CLR SLD           ; 16                          ;
 ;     ENA               ; 9                           ;
-;     ENA CLR           ; 373                         ;
-;     ENA CLR SCLR      ; 15                          ;
+;     ENA CLR           ; 352                         ;
+;     ENA CLR SCLR      ; 37                          ;
 ;     ENA CLR SLD       ; 42                          ;
 ;     ENA SCLR          ; 42                          ;
 ;     ENA SLD           ; 20                          ;
@@ -2976,22 +2981,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SLD               ; 44                          ;
 ;     plain             ; 252                         ;
 ; cycloneiii_io_obuf    ; 18                          ;
-; cycloneiii_lcell_comb ; 2354                        ;
-;     arith             ; 487                         ;
+; cycloneiii_lcell_comb ; 2357                        ;
+;     arith             ; 491                         ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 259                         ;
-;         3 data inputs ; 226                         ;
-;     normal            ; 1867                        ;
+;         2 data inputs ; 265                         ;
+;         3 data inputs ; 224                         ;
+;     normal            ; 1866                        ;
 ;         0 data inputs ; 7                           ;
-;         1 data inputs ; 61                          ;
-;         2 data inputs ; 183                         ;
-;         3 data inputs ; 277                         ;
-;         4 data inputs ; 1339                        ;
+;         1 data inputs ; 60                          ;
+;         2 data inputs ; 178                         ;
+;         3 data inputs ; 275                         ;
+;         4 data inputs ; 1346                        ;
 ; cycloneiii_pll        ; 2                           ;
 ; cycloneiii_ram_block  ; 80                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 9.00                        ;
-; Average LUT depth     ; 3.16                        ;
+; Average LUT depth     ; 3.15                        ;
 +-----------------------+-----------------------------+
 
 
@@ -3000,7 +3005,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -3010,7 +3015,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
-    Info: Processing started: Mon Apr 11 18:54:08 2022
+    Info: Processing started: Thu Apr 14 21:43:56 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off OV5640 -c OV5640
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -3032,7 +3037,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file /prjwor
     Info (12023): Found entity 1: ov5640_pip File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 6
 Info (12021): Found 0 design units, including 0 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/vga/video_define.v
 Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/vga/color_bar.v
-    Info (12023): Found entity 1: color_bar File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 3
+    Info (12023): Found entity 1: color_bar File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 10
 Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/sdram_control_4port.v
     Info (12023): Found entity 1: Sdram_Control_4Port File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 1
 Warning (10229): Verilog HDL Expression warning at sdr_data_path.v(23): truncated literal to match 1 bits File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 23
@@ -3385,7 +3390,7 @@ Info (12128): Elaborating entity "YCbCr" for hierarchy "sobel_top:u_sobel_top|YC
 Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cb2" assigned a value but never read File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
 Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cr2" assigned a value but never read File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
 Info (12128): Elaborating entity "sobel_filtering" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v Line: 54
-Info (12128): Elaborating entity "opr_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 64
+Info (12128): Elaborating entity "opr_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 65
 Info (12128): Elaborating entity "shift_ip_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v Line: 34
 Info (12128): Elaborating entity "altshift_taps" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
 Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
@@ -3413,11 +3418,11 @@ Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(111): truncated
 Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(124): truncated value with size 8 to match size of target (4) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 124
 Info (12128): Elaborating entity "binary_8421" for hierarchy "seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 163
 Info (278001): Inferred 3 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "8"
     Info (12134): Parameter "LPM_WIDTHP" = "16"
@@ -3433,8 +3438,8 @@ Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_lgh.tdf
     Info (12023): Found entity 1: add_sub_lgh File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_lgh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1|altshift:external_latency_ffs", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "7"
     Info (12134): Parameter "LPM_WIDTHP" = "15"
@@ -3450,8 +3455,8 @@ Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_kgh.tdf
     Info (12023): Found entity 1: add_sub_kgh File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_kgh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 23
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "5"
     Info (12134): Parameter "LPM_WIDTHP" = "13"
@@ -3471,22 +3476,22 @@ Warning (12241): 10 hierarchies have connectivity warnings - see the Connectivit
 Info (13000): Registers with preset signals will power-up high File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 20
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 8 registers lost all their fanouts during netlist optimizations.
+Info (17049): 10 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/output_files/OV5640.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3105 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3106 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 25 input pins
     Info (21059): Implemented 58 output pins
     Info (21060): Implemented 18 bidirectional pins
-    Info (21061): Implemented 2922 logic cells
+    Info (21061): Implemented 2923 logic cells
     Info (21064): Implemented 80 RAM segments
     Info (21065): Implemented 2 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 4821 megabytes
-    Info: Processing ended: Mon Apr 11 18:54:32 2022
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:37
+    Info: Peak virtual memory: 4809 megabytes
+    Info: Processing ended: Thu Apr 14 21:44:19 2022
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:36
 
 
 +------------------------------------------+

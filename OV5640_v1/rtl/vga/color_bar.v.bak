@@ -42,7 +42,7 @@ F:\Document\ZPF_Document\ZPF_FPGA\MyCore\09_VGA\11_VGA\rtl\myCore\VGA
 */
 
 //30x30 1Mhz 超迷你VGA 仅供仿真使用
-`ifdef  VIDEO_30_30
+`ifdef  VIDEO_30x30
     parameter                           H_ACTIVE = 16'd30          ;
     parameter                           H_FP = 16'd2               ;
     parameter                           H_SYNC = 16'd5             ;

@@ -1,1 +1,1 @@
-`define	VIDEO_30x30
+`define	VIDEO_640_480
