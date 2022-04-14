@@ -9,16 +9,16 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 T_opt
-!s110 1649674823
-Vz?<=NbBLV=R3SXAInnJ=I1
+!s110 1649917954
+V7MkT=D>i=Y:HGgSJ5gTzH2
 04 13 4 work sobel_img_gen fast 0
-=1-80e82c2e1478-62540a45-333-cdc
+=1-80e82c2e1478-6257c001-3b4-45b4
 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7;67
 vbinary_8421
-Z2 !s110 1649674817
+Z2 !s110 1649917949
 !i10b 1
 !s100 T2U46PC:1?^8:]NQjbY0?1
 I>NTTN7l8iKCI::m0beI;K2
@@ -32,7 +32,7 @@ Z4 OL;L;10.7;67
 r1
 !s85 0
 31
-Z5 !s108 1649674817.000000
+Z5 !s108 1649917949.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v|
 !i113 0
@@ -40,7 +40,7 @@ Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -
 Z7 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vclock_pll
-Z8 !s110 1649674819
+Z8 !s110 1649917952
 !i10b 1
 !s100 lJ_8E9J[UX1MGenlZK6c]0
 IdBZcT37EViAYX6Uo>8nn?1
@@ -54,7 +54,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1649674819.000000
+Z10 !s108 1649917952.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v|
 !i113 0
@@ -151,7 +151,7 @@ R6
 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vcommand
-Z15 !s110 1649674820
+Z15 !s110 1649917953
 !i10b 1
 !s100 M9UXgnO2@3UTbzG5Pl>>o2
 I81nlXFjXfT?05?c]j=D9e2
@@ -166,7 +166,7 @@ R4
 r1
 !s85 0
 31
-Z18 !s108 1649674820.000000
+Z18 !s108 1649917953.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Params.h|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v|
 !i113 0
@@ -197,7 +197,7 @@ R6
 R19
 R1
 vgetPos
-Z20 !s110 1649674818
+Z20 !s110 1649917951
 !i10b 1
 !s100 i^_>19MclRRHjefPK>bJV3
 IYJ;`bV=oQzng<Imd1;h:b0
@@ -211,7 +211,7 @@ R4
 r1
 !s85 0
 31
-Z21 !s108 1649674818.000000
+Z21 !s108 1649917951.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v|
 !i113 0
@@ -310,7 +310,7 @@ R6
 R23
 R1
 vopr_3
-R2
+Z24 !s110 1649917950
 !i10b 1
 !s100 bQj>K63d?:lRMA=5bd_Ck1
 IQljI0ilhVS2MLC0i]R64K3
@@ -324,15 +324,15 @@ R4
 r1
 !s85 0
 31
-R5
+Z25 !s108 1649917950.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v|
 !i113 0
 R6
-Z24 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z26 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vov5640_pip
-R2
+R24
 !i10b 1
 !s100 61U=KCZ1P5XO^_g4LFliV1
 Ih8]fGPh?6Dz?JHQ:ee?EX3
@@ -346,7 +346,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v|
 !i113 0
@@ -400,7 +400,7 @@ R6
 R19
 R1
 vSdram_Control_4Port
-R8
+R15
 !i10b 1
 !s100 lf5bg2lUo6>e^DfjO@16E1
 IZJoYO>GhzCWdb[7VO:7V<2
@@ -447,7 +447,7 @@ R6
 R1
 n@sdram_@f@i@f@o
 vSdram_PLL
-R20
+R24
 !i10b 1
 !s100 XN7C9eM^cAknH<KjIg8HA2
 IDNeRdiOB^Zizh4GkMk>i:1
@@ -461,7 +461,7 @@ R4
 r1
 !s85 0
 31
-R21
+R25
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v|
 !i113 0
@@ -493,7 +493,7 @@ R13
 R1
 n@sdram_@p@l@l_altpll
 vseg_dynamic
-!s110 1649674816
+R2
 !i10b 1
 !s100 _=H2GakVcVjl9@Llf_YN<0
 IeG30Xb><AIk3H?;92bg812
@@ -507,7 +507,7 @@ R4
 r1
 !s85 0
 31
-!s108 1649674816.000000
+R5
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v|
 !i113 0
@@ -515,7 +515,7 @@ R6
 R7
 R1
 vshift_ip_3
-R2
+R24
 !i10b 1
 !s100 IX0_MLfU5De=^<k4^?>:e3
 IViT?<jVUTb:<Nh8hb9@K@1
@@ -529,7 +529,7 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v|
 !i113 0
@@ -537,7 +537,7 @@ R6
 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vsobel_filtering
-R2
+R24
 !i10b 1
 !s100 dk?8G91DjKmVPP?alcn9A2
 I?4PN[9IVYPXPOzTiOSBKH1
@@ -551,21 +551,21 @@ R4
 r1
 !s85 0
 31
-R5
+R25
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v|
 !i113 0
 R6
-R24
+R26
 R1
 vsobel_img_gen
 R15
 !i10b 1
-!s100 J4GM7_k^5JHRABK5lP_LD2
-I1eA;5gQbna5nM?geG=o=^3
+!s100 LRFRCVmd:VdfDWT[JP?<K0
+I0;II]]bK]:QJ>8G53gEDb3
 R3
 R0
-w1649674383
+w1649917820
 8D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v
 FD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v
 L0 10
@@ -575,7 +575,7 @@ r1
 31
 R18
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWom255
+!s90 -reportprogress|300|-vlog01compat|-work|work|m255
 K4
 z2
 13
@@ -587,7 +587,7 @@ cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 valtera_arriav_pll
 Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
-Z2 !s110 1649674815
+Z2 !s110 1649917947
 !i10b 1
 !s100 P6bOG<Ye[Y8:b]DYJ9:L`1
 IE4igO^T2CX^K]7:R`X;OG3
@@ -603,7 +603,7 @@ Z8 OL;L;10.7;67
 r1
 !s85 0
 31
-Z9 !s108 1649674815.000000
+Z9 !s108 1649917947.000000
 Z10 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|altera_lnsim_ver|d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv|
 !i113 0
@@ -1659,7 +1659,7 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 va_graycounter
-Z1 !s110 1649674814
+Z1 !s110 1649917946
 !i10b 1
 !s100 _YHG4>Cn_SB4[jlRl?gNM3
 If5R5h8dC2YM1j<0J<MN6d1
@@ -1673,7 +1673,7 @@ Z6 OL;L;10.7;67
 r1
 !s85 0
 31
-Z7 !s108 1649674813.000000
+Z7 !s108 1649917945.000000
 Z8 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 !i113 0
@@ -1890,7 +1890,7 @@ R9
 R10
 R11
 valtaccumulate
-R1
+Z12 !s110 1649917945
 !i10b 1
 !s100 dRBaW`@k8`kMZAgSizlO50
 I57UlLBhQ]jE4^bbOT5Ske2
@@ -1911,7 +1911,7 @@ R9
 R10
 R11
 valtclklock
-R1
+R12
 !i10b 1
 !s100 z54Q9gRIlKXmNV6ca9Wie2
 I]4E>_5oOhj`EPkQ6ldaf23
@@ -1932,7 +1932,7 @@ R9
 R10
 R11
 valtddio_bidir
-R1
+R12
 !i10b 1
 !s100 KBFMdj`nh3ZDN?l]PkS6i2
 IDjD@:7_YGkMfQT[Y8mR8a1
@@ -1953,7 +1953,7 @@ R9
 R10
 R11
 valtddio_in
-R1
+R12
 !i10b 1
 !s100 UkOE`ae@IWK>o?a1Tcn3F3
 IT;ek=gHh@0e4HNEHV`d4m1
@@ -1974,7 +1974,7 @@ R9
 R10
 R11
 valtddio_out
-R1
+R12
 !i10b 1
 !s100 >RAEFbT2C2P:gFch3;o3I1
 I6T^@z1b42j7QziO1>PT]k3
@@ -1995,7 +1995,7 @@ R9
 R10
 R11
 valtdpram
-R1
+R12
 !i10b 1
 !s100 ne2QYQae1EKWEaXSmB^QS3
 I4VT@0`Q]D86DKQDGSEzb_1
@@ -2016,7 +2016,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1649674813
+R12
 !i10b 1
 !s100 ;?gjiPo:ezENlSR;:eS:13
 I<]j><9WQTzO]4mjJUne`m3
@@ -2124,7 +2124,7 @@ R9
 R10
 R11
 valtera_syncram_derived
-R1
+R12
 !i10b 1
 !s100 ]_JO>GbDlakgL8llPBBnM2
 IOcGFU37]G9Xz1TZU>YDmI2
@@ -2145,7 +2145,7 @@ R9
 R10
 R11
 valtera_syncram_derived_forwarding_logic
-R1
+R12
 !i10b 1
 !s100 fJJE8?Q1PQh7;VWIihMOP0
 I:^Bb2SAejg6<91=lVedH21
@@ -2166,7 +2166,7 @@ R9
 R10
 R11
 valtfp_mult
-R1
+R12
 !i10b 1
 !s100 `gE9EFhI`mc?_I588T:OH0
 IN]b:f@e_@;lVHIi>5Vfn83
@@ -2187,7 +2187,7 @@ R9
 R10
 R11
 valtlvds_rx
-R1
+R12
 !i10b 1
 !s100 ?SXb_1W:JH<@Lija1P3d52
 Igh15:OIF^YZfC1ih2mBaQ2
@@ -2208,7 +2208,7 @@ R9
 R10
 R11
 valtlvds_tx
-R1
+R12
 !i10b 1
 !s100 N^PGlh76?EGN_`W955[Zl0
 IOmmlS<Mnhz:KzcOAOXNaS0
@@ -2229,7 +2229,7 @@ R9
 R10
 R11
 valtmult_accum
-R1
+R12
 !i10b 1
 !s100 1hlmWgg9lY:bjOK2Z?ZU[3
 I<l0:CO1Qh>nKVFb;S=<?F3
@@ -2250,7 +2250,7 @@ R9
 R10
 R11
 valtmult_add
-R1
+R12
 !i10b 1
 !s100 1BVkQB[^GRP5LI=Rk>Z;n2
 IlCL6?k<MmiSnX2VPP272X1
@@ -2292,7 +2292,7 @@ R9
 R10
 R11
 valtpll
-R1
+R12
 !i10b 1
 !s100 G;_k95coHU[k;G9aK?O0o3
 In;@nl_3l;e1KoL5DYn@Y<1
@@ -2376,7 +2376,7 @@ R9
 R10
 R11
 valtsqrt
-R1
+R12
 !i10b 1
 !s100 e6:k9H?^Z<KMVlmacU>740
 I[]V9]6K=]1CgP_]g[P3O]3
@@ -2439,7 +2439,7 @@ R9
 R10
 R11
 valtsyncram
-R1
+R12
 !i10b 1
 !s100 7[5Sf954o4k4I;D6CcgHI0
 I_Qc6md;cnnSkG`AGoJnDm2
@@ -2544,7 +2544,7 @@ R9
 R10
 R11
 vcda_m_cntr
-R1
+R12
 !i10b 1
 !s100 o][kBc:SEd@Xkm3AA4<M13
 I]UW4;j]2^6ONinA]]kHD20
@@ -2565,7 +2565,7 @@ R9
 R10
 R11
 vcda_n_cntr
-R1
+R12
 !i10b 1
 !s100 Azh]WDOiCl?E?_SPO8?9W3
 I6fSdd?^>kjSPYm65ee]7e2
@@ -2586,7 +2586,7 @@ R9
 R10
 R11
 vcda_scale_cntr
-R1
+R12
 !i10b 1
 !s100 5Wk1ioElkR`WUf9^K2Ebh0
 I_C6RW=4gXFW;EzK`R3FJ53
@@ -2607,7 +2607,7 @@ R9
 R10
 R11
 vcycloneiiigl_post_divider
-R1
+R12
 !i10b 1
 !s100 eaF?YDGc^;S4]m;VjWlPH2
 IK[nkbFM8m=WJj3:1h;@eE2
@@ -2628,7 +2628,7 @@ R9
 R10
 R11
 vdcfifo
-R1
+R12
 !i10b 1
 !s100 ]oFSEYAOcTjVbZSdHg]m=3
 IDQVgESTFHTzDZ>UN`eB;Q0
@@ -2649,7 +2649,7 @@ R9
 R10
 R11
 vdcfifo_async
-R1
+R12
 !i10b 1
 !s100 _InUnOB:2a<_;Y0P_1JJI1
 IKb]EIzA[H[T5IoXn8Jgbg1
@@ -2670,7 +2670,7 @@ R9
 R10
 R11
 vdcfifo_dffpipe
-R1
+R12
 !i10b 1
 !s100 EY5dZ[DGn@4gh;aQSf_gk1
 IBh_MQADIl:faXJ@:h6WY:3
@@ -2691,7 +2691,7 @@ R9
 R10
 R11
 vdcfifo_fefifo
-R1
+R12
 !i10b 1
 !s100 _j1mko2WQkL[H_?YM^TSL2
 IYSc`mGTX]T8RM0So5mLEE0
@@ -2712,7 +2712,7 @@ R9
 R10
 R11
 vdcfifo_low_latency
-R1
+R12
 !i10b 1
 !s100 _]`7?VJ[[3SVRAeAa0aeL3
 IRjf2fW8We5U0Ao^o9^4e>3
@@ -2725,10 +2725,3 @@ L0 30780
 R6
 r1
 !s85 0
-31
-R7
-R8
-R9
-!i113 0
-R10
-R

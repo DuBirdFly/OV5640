@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 vio_buf_opdrn
-Z1 !s110 1649674813
+Z1 !s110 1649941962
 !i10b 1
 !s100 G1bzEZ?V9[_a95RTI25XO0
 Ii8ECY<MaYHaU>oZc=33KZ0
@@ -23,7 +23,7 @@ Z6 OL;L;10.7;67
 r1
 !s85 0
 31
-Z7 !s108 1649674813.000000
+Z7 !s108 1649941962.000000
 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/sgate.v|
 Z8 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|d:/edatools/quartus18/quartus/eda/sim_lib/sgate.v|
 !i113 0

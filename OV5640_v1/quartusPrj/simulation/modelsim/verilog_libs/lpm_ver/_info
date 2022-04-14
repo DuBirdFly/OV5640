@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 vlpm_abs
-Z1 !s110 1649674812
+Z1 !s110 1649941961
 !i10b 1
 !s100 S[?VWcWF9nfS=UKU2MQnS2
 Ilmm8F=92?BGQjzb8EfmS:1
@@ -23,7 +23,7 @@ Z6 OL;L;10.7;67
 r1
 !s85 0
 31
-Z7 !s108 1649674812.000000
+Z7 !s108 1649941961.000000
 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/220model.v|
 Z8 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|d:/edatools/quartus18/quartus/eda/sim_lib/220model.v|
 !i113 0
