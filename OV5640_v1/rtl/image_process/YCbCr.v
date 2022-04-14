@@ -11,6 +11,8 @@ reg                    [  15:0]         R1,G1,B1,R2,G2,B2,R3,G3,B3 ;
 reg                    [  15:0]         Y1,Cb1,Cr1                 ;
 reg                    [   7:0]         Y2,Cb2,Cr2                 ;
 
+reg                    [   2:0]         RGB_de_r,RGB_hsync_r,RGB_vsync_r;
+
 assign R0 = {RGB_data[15:11],RGB_data[13:11]};                      //  R8
 assign G0 = {RGB_data[10: 5],RGB_data[ 6: 5]};                      //  G8
 assign B0 = {RGB_data[ 4: 0],RGB_data[ 2: 0]};                      //  B8
@@ -42,8 +44,6 @@ always @(posedge clk) begin
     RGB_hsync_r <= {RGB_hsync_r[1:0], RGB_hsync};
     RGB_vsync_r <= {RGB_vsync_r[1:0], RGB_vsync};
 end
-
-reg                    [   2:0]         RGB_de_r,RGB_hsync_r,RGB_vsync_r;
 
 assign gray_de    = RGB_de_r[2];
 assign gray_hsync = RGB_hsync_r[2];

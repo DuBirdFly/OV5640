@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "ov5640_pip")
-  (DATE "03/23/2022 21:28:22")
+  (DATE "04/11/2022 18:54:59")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition")

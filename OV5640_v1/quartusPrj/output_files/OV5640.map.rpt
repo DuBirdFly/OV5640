@@ -1,5 +1,5 @@
 Analysis & Synthesis report for OV5640
-Wed Mar 23 21:27:54 2022
+Mon Apr 11 18:54:32 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 
 
@@ -146,7 +146,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 23 21:27:54 2022           ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 11 18:54:32 2022           ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
 ; Revision Name                      ; OV5640                                          ;
 ; Top-level Entity Name              ; ov5640_pip                                      ;
@@ -273,39 +273,39 @@ refer to the applicable agreement for further details.
 +--------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path           ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                  ; Library ;
 +--------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
-; ../rtl/mid_ware/seg_dynamic/seg_dynamic.v  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v       ;         ;
-; ../rtl/mid_ware/seg_dynamic/binary_8421.v  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v       ;         ;
-; ../rtl/mid_ware/key.v                      ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/key.v                           ;         ;
-; ../rtl/image_process/sobel_top.v           ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_top.v                ;         ;
-; ../rtl/image_process/sobel_filtering.v     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_filtering.v          ;         ;
-; ../rtl/image_process/opr_3.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/opr_3.v                    ;         ;
-; ../rtl/image_process/shift_ip/shift_ip_3.v ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v      ;         ;
-; ../rtl/ov5640_pip.v                        ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v                             ;         ;
-; ../rtl/vga/video_define.v                  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/vga/video_define.v                       ;         ;
-; ../rtl/vga/color_bar.v                     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/vga/color_bar.v                          ;         ;
-; ../rtl/sdram_4port/Sdram_Params.h          ; yes             ; User File                    ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Params.h               ;         ;
-; ../rtl/sdram_4port/Sdram_Control_4Port.v   ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v        ;         ;
-; ../rtl/sdram_4port/sdr_data_path.v         ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdr_data_path.v              ;         ;
-; ../rtl/sdram_4port/control_interface.v     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/control_interface.v          ;         ;
-; ../rtl/sdram_4port/command.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/command.v                    ;         ;
-; ../rtl/sdram_4port/sdram_pll/Sdram_PLL.v   ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v        ;         ;
-; ../rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v      ;         ;
-; ../rtl/mid_ware/Reset_Delay.v              ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/Reset_Delay.v                   ;         ;
-; ../rtl/mid_ware/getRGB.v                   ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getRGB.v                        ;         ;
-; ../rtl/mid_ware/getPos/getPosedge.v        ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v             ;         ;
-; ../rtl/mid_ware/getPos/getPos.v            ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getPos/getPos.v                 ;         ;
-; ../rtl/image_process/YCbCr.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v                    ;         ;
-; ../rtl/cmos/i2c_com.v                      ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v                           ;         ;
-; ../rtl/cmos/cmos2_reg_config.v             ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/cmos2_reg_config.v                  ;         ;
-; ../rtl/cmos/CMOS_Capture.v                 ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/CMOS_Capture.v                      ;         ;
-; ../rtl/clock_pll/clock_pll.v               ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/OV5640_v1/rtl/clock_pll/clock_pll.v                    ;         ;
+; ../rtl/mid_ware/seg_dynamic/seg_dynamic.v  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v   ;         ;
+; ../rtl/mid_ware/seg_dynamic/binary_8421.v  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v   ;         ;
+; ../rtl/mid_ware/key.v                      ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/key.v                       ;         ;
+; ../rtl/image_process/sobel_top.v           ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v            ;         ;
+; ../rtl/image_process/sobel_filtering.v     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v      ;         ;
+; ../rtl/image_process/opr_3.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v                ;         ;
+; ../rtl/image_process/shift_ip/shift_ip_3.v ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v  ;         ;
+; ../rtl/ov5640_pip.v                        ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v                         ;         ;
+; ../rtl/vga/video_define.v                  ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/video_define.v                   ;         ;
+; ../rtl/vga/color_bar.v                     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v                      ;         ;
+; ../rtl/sdram_4port/Sdram_Params.h          ; yes             ; User File                    ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Params.h           ;         ;
+; ../rtl/sdram_4port/Sdram_Control_4Port.v   ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v    ;         ;
+; ../rtl/sdram_4port/sdr_data_path.v         ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v          ;         ;
+; ../rtl/sdram_4port/control_interface.v     ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v      ;         ;
+; ../rtl/sdram_4port/command.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v                ;         ;
+; ../rtl/sdram_4port/sdram_pll/Sdram_PLL.v   ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v    ;         ;
+; ../rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v  ;         ;
+; ../rtl/mid_ware/Reset_Delay.v              ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/Reset_Delay.v               ;         ;
+; ../rtl/mid_ware/getRGB.v                   ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v                    ;         ;
+; ../rtl/mid_ware/getPos/getPosedge.v        ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v         ;         ;
+; ../rtl/mid_ware/getPos/getPos.v            ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v             ;         ;
+; ../rtl/image_process/YCbCr.v               ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v                ;         ;
+; ../rtl/cmos/i2c_com.v                      ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v                       ;         ;
+; ../rtl/cmos/cmos2_reg_config.v             ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v              ;         ;
+; ../rtl/cmos/CMOS_Capture.v                 ; yes             ; User Verilog HDL File        ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/CMOS_Capture.v                  ;         ;
+; ../rtl/clock_pll/clock_pll.v               ; yes             ; User Wizard-Generated File   ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v                ;         ;
 ; altpll.tdf                                 ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/altpll.tdf              ;         ;
 ; aglobal180.inc                             ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/aglobal180.inc          ;         ;
 ; stratix_pll.inc                            ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/stratix_pll.inc         ;         ;
 ; stratixii_pll.inc                          ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/stratixii_pll.inc       ;         ;
 ; cycloneii_pll.inc                          ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/cycloneii_pll.inc       ;         ;
-; db/clock_pll_altpll.v                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/clock_pll_altpll.v             ;         ;
-; db/sdram_pll_altpll.v                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v             ;         ;
+; db/clock_pll_altpll.v                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/clock_pll_altpll.v         ;         ;
+; db/sdram_pll_altpll.v                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v         ;         ;
 ; dcfifo.tdf                                 ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/dcfifo.tdf              ;         ;
 ; lpm_counter.inc                            ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
 ; lpm_add_sub.inc                            ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
@@ -317,23 +317,23 @@ refer to the applicable agreement for further details.
 ; alt_sync_fifo.inc                          ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/alt_sync_fifo.inc       ;         ;
 ; lpm_compare.inc                            ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
 ; altsyncram_fifo.inc                        ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/altsyncram_fifo.inc     ;         ;
-; db/dcfifo_gbo1.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf                ;         ;
-; db/a_gray2bin_8ib.tdf                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_gray2bin_8ib.tdf             ;         ;
-; db/a_graycounter_777.tdf                   ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_graycounter_777.tdf          ;         ;
-; db/a_graycounter_3lc.tdf                   ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_graycounter_3lc.tdf          ;         ;
-; db/altsyncram_2u81.tdf                     ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/altsyncram_2u81.tdf            ;         ;
-; db/dffpipe_qe9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_qe9.tdf                ;         ;
-; db/alt_synch_pipe_apl.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf         ;         ;
-; db/dffpipe_re9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_re9.tdf                ;         ;
-; db/alt_synch_pipe_bpl.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf         ;         ;
-; db/dffpipe_se9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_se9.tdf                ;         ;
-; db/cmpr_p76.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cmpr_p76.tdf                   ;         ;
+; db/dcfifo_gbo1.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf            ;         ;
+; db/a_gray2bin_8ib.tdf                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_gray2bin_8ib.tdf         ;         ;
+; db/a_graycounter_777.tdf                   ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_graycounter_777.tdf      ;         ;
+; db/a_graycounter_3lc.tdf                   ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_graycounter_3lc.tdf      ;         ;
+; db/altsyncram_2u81.tdf                     ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/altsyncram_2u81.tdf        ;         ;
+; db/dffpipe_qe9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_qe9.tdf            ;         ;
+; db/alt_synch_pipe_apl.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf     ;         ;
+; db/dffpipe_re9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_re9.tdf            ;         ;
+; db/alt_synch_pipe_bpl.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf     ;         ;
+; db/dffpipe_se9.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_se9.tdf            ;         ;
+; db/cmpr_p76.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cmpr_p76.tdf               ;         ;
 ; altshift_taps.tdf                          ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/altshift_taps.tdf       ;         ;
 ; lpm_constant.inc                           ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
-; db/shift_taps_7rv.tdf                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf             ;         ;
-; db/altsyncram_pja1.tdf                     ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/altsyncram_pja1.tdf            ;         ;
-; db/cntr_3uf.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cntr_3uf.tdf                   ;         ;
-; db/cmpr_7ic.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cmpr_7ic.tdf                   ;         ;
+; db/shift_taps_7rv.tdf                      ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf         ;         ;
+; db/altsyncram_pja1.tdf                     ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/altsyncram_pja1.tdf        ;         ;
+; db/cntr_3uf.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cntr_3uf.tdf               ;         ;
+; db/cmpr_7ic.tdf                            ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cmpr_7ic.tdf               ;         ;
 ; lpm_mult.tdf                               ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf            ;         ;
 ; multcore.inc                               ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/multcore.inc            ;         ;
 ; bypassff.inc                               ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/bypassff.inc            ;         ;
@@ -351,10 +351,10 @@ refer to the applicable agreement for further details.
 ; addcore.inc                                ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/addcore.inc             ;         ;
 ; look_add.inc                               ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/look_add.inc            ;         ;
 ; alt_stratix_add_sub.inc                    ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
-; db/add_sub_lgh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_lgh.tdf                ;         ;
+; db/add_sub_lgh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_lgh.tdf            ;         ;
 ; altshift.tdf                               ; yes             ; Megafunction                 ; d:/edatools/quartus18/quartus/libraries/megafunctions/altshift.tdf            ;         ;
-; db/add_sub_kgh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_kgh.tdf                ;         ;
-; db/add_sub_bfh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_bfh.tdf                ;         ;
+; db/add_sub_kgh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_kgh.tdf            ;         ;
+; db/add_sub_bfh.tdf                         ; yes             ; Auto-Generated Megafunction  ; D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_bfh.tdf            ;         ;
 +--------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------+---------+
 
 
@@ -3000,7 +3000,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:11     ;
 +----------------+--------------+
 
 
@@ -3010,72 +3010,72 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
-    Info: Processing started: Wed Mar 23 21:27:31 2022
+    Info: Processing started: Mon Apr 11 18:54:08 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off OV5640 -c OV5640
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v
-    Info (12023): Found entity 1: seg_dynamic File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v
-    Info (12023): Found entity 1: binary_8421 File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/key.v
-    Info (12023): Found entity 1: key File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/key.v Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/image_process/sobel_top.v
-    Info (12023): Found entity 1: sobel_top File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_top.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/image_process/sobel_filtering.v
-    Info (12023): Found entity 1: sobel_filtering File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/image_process/opr_3.v
-    Info (12023): Found entity 1: opr_3 File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/opr_3.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/image_process/shift_ip/shift_ip_3.v
-    Info (12023): Found entity 1: shift_ip_3 File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 39
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/ov5640_pip.v
-    Info (12023): Found entity 1: ov5640_pip File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 6
-Info (12021): Found 0 design units, including 0 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/vga/video_define.v
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/vga/color_bar.v
-    Info (12023): Found entity 1: color_bar File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/vga/color_bar.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/sdram_control_4port.v
-    Info (12023): Found entity 1: Sdram_Control_4Port File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 1
-Warning (10229): Verilog HDL Expression warning at sdr_data_path.v(23): truncated literal to match 1 bits File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 23
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/sdr_data_path.v
-    Info (12023): Found entity 1: sdr_data_path File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/control_interface.v
-    Info (12023): Found entity 1: control_interface File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/command.v
-    Info (12023): Found entity 1: command File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/command.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/sdram_pll/sdram_pll.v
-    Info (12023): Found entity 1: Sdram_PLL File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 39
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/sdram_4port/sdram_fifo/sdram_fifo.v
-    Info (12023): Found entity 1: Sdram_FIFO File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 39
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/reset_delay.v
-    Info (12023): Found entity 1: Reset_Delay File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/Reset_Delay.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/getrgb.v
-    Info (12023): Found entity 1: getRGB File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getRGB.v Line: 8
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/getpos/getposedge.v
-    Info (12023): Found entity 1: getPosedge File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/mid_ware/getpos/getpos.v
-    Info (12023): Found entity 1: getPos File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getPos/getPos.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/image_process/ycbcr.v
-    Info (12023): Found entity 1: YCbCr File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/cmos/i2c_com.v
-    Info (12023): Found entity 1: i2c_com File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/cmos/cmos2_reg_config.v
-    Info (12023): Found entity 1: cmos2_reg_config File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/cmos/cmos_capture.v
-    Info (12023): Found entity 1: CMOS_Capture File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/CMOS_Capture.v Line: 17
-Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/ov5640_v1/rtl/clock_pll/clock_pll.v
-    Info (12023): Found entity 1: clock_pll File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 39
-Warning (10236): Verilog HDL Implicit Net warning at getRGB.v(34): created implicit net for "Pic_1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getRGB.v Line: 34
-Warning (10236): Verilog HDL Implicit Net warning at getRGB.v(36): created implicit net for "Pic_2" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getRGB.v Line: 36
-Warning (10236): Verilog HDL Implicit Net warning at cmos2_reg_config.v(24): created implicit net for "ack" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 24
-Warning (10236): Verilog HDL Implicit Net warning at cmos2_reg_config.v(27): created implicit net for "tr_end" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v
+    Info (12023): Found entity 1: seg_dynamic File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v
+    Info (12023): Found entity 1: binary_8421 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/key.v
+    Info (12023): Found entity 1: key File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/key.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/image_process/sobel_top.v
+    Info (12023): Found entity 1: sobel_top File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/image_process/sobel_filtering.v
+    Info (12023): Found entity 1: sobel_filtering File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/image_process/opr_3.v
+    Info (12023): Found entity 1: opr_3 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/image_process/shift_ip/shift_ip_3.v
+    Info (12023): Found entity 1: shift_ip_3 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/ov5640_pip.v
+    Info (12023): Found entity 1: ov5640_pip File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 6
+Info (12021): Found 0 design units, including 0 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/vga/video_define.v
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/vga/color_bar.v
+    Info (12023): Found entity 1: color_bar File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/sdram_control_4port.v
+    Info (12023): Found entity 1: Sdram_Control_4Port File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 1
+Warning (10229): Verilog HDL Expression warning at sdr_data_path.v(23): truncated literal to match 1 bits File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/sdr_data_path.v
+    Info (12023): Found entity 1: sdr_data_path File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/control_interface.v
+    Info (12023): Found entity 1: control_interface File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/command.v
+    Info (12023): Found entity 1: command File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/sdram_pll/sdram_pll.v
+    Info (12023): Found entity 1: Sdram_PLL File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/sdram_4port/sdram_fifo/sdram_fifo.v
+    Info (12023): Found entity 1: Sdram_FIFO File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/reset_delay.v
+    Info (12023): Found entity 1: Reset_Delay File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/Reset_Delay.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/getrgb.v
+    Info (12023): Found entity 1: getRGB File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/getpos/getposedge.v
+    Info (12023): Found entity 1: getPosedge File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/mid_ware/getpos/getpos.v
+    Info (12023): Found entity 1: getPos File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/image_process/ycbcr.v
+    Info (12023): Found entity 1: YCbCr File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/cmos/i2c_com.v
+    Info (12023): Found entity 1: i2c_com File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/cmos/cmos2_reg_config.v
+    Info (12023): Found entity 1: cmos2_reg_config File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/cmos/cmos_capture.v
+    Info (12023): Found entity 1: CMOS_Capture File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/CMOS_Capture.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file /prjworkspace/ov5640/prj/ov5640_v1/rtl/clock_pll/clock_pll.v
+    Info (12023): Found entity 1: clock_pll File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 39
+Warning (10236): Verilog HDL Implicit Net warning at getRGB.v(34): created implicit net for "Pic_1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v Line: 34
+Warning (10236): Verilog HDL Implicit Net warning at getRGB.v(36): created implicit net for "Pic_2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v Line: 36
+Warning (10236): Verilog HDL Implicit Net warning at cmos2_reg_config.v(24): created implicit net for "ack" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at cmos2_reg_config.v(27): created implicit net for "tr_end" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 27
 Info (12127): Elaborating entity "ov5640_pip" for the top level hierarchy
-Info (12128): Elaborating entity "getRGB" for hierarchy "getRGB:inst_getRGB" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 87
-Info (12128): Elaborating entity "Reset_Delay" for hierarchy "Reset_Delay:u_Reset_Delay" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 99
-Warning (10230): Verilog HDL assignment warning at Reset_Delay.v(22): truncated value with size 32 to match size of target (22) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/Reset_Delay.v Line: 22
-Info (12128): Elaborating entity "clock_pll" for hierarchy "clock_pll:u_clok_pll" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 109
-Info (12128): Elaborating entity "altpll" for hierarchy "clock_pll:u_clok_pll|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
-Info (12130): Elaborated megafunction instantiation "clock_pll:u_clok_pll|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
-Info (12133): Instantiated megafunction "clock_pll:u_clok_pll|altpll:altpll_component" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
+Info (12128): Elaborating entity "getRGB" for hierarchy "getRGB:inst_getRGB" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 87
+Info (12128): Elaborating entity "Reset_Delay" for hierarchy "Reset_Delay:u_Reset_Delay" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 99
+Warning (10230): Verilog HDL assignment warning at Reset_Delay.v(22): truncated value with size 32 to match size of target (22) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/Reset_Delay.v Line: 22
+Info (12128): Elaborating entity "clock_pll" for hierarchy "clock_pll:u_clok_pll" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 109
+Info (12128): Elaborating entity "altpll" for hierarchy "clock_pll:u_clok_pll|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
+Info (12130): Elaborated megafunction instantiation "clock_pll:u_clok_pll|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
+Info (12133): Instantiated megafunction "clock_pll:u_clok_pll|altpll:altpll_component" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v Line: 107
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "2000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -3136,123 +3136,123 @@ Info (12133): Instantiated megafunction "clock_pll:u_clok_pll|altpll:altpll_comp
     Info (12134): Parameter "self_reset_on_loss_lock" = "OFF"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/clock_pll_altpll.v
-    Info (12023): Found entity 1: clock_pll_altpll File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/clock_pll_altpll.v Line: 30
+    Info (12023): Found entity 1: clock_pll_altpll File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/clock_pll_altpll.v Line: 30
 Info (12128): Elaborating entity "clock_pll_altpll" for hierarchy "clock_pll:u_clok_pll|altpll:altpll_component|clock_pll_altpll:auto_generated" File: d:/edatools/quartus18/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "cmos2_reg_config" for hierarchy "cmos2_reg_config:cmos_config_1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 123
-Info (12128): Elaborating entity "i2c_com" for hierarchy "cmos2_reg_config:cmos_config_1|i2c_com:u1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 30
-Warning (10230): Verilog HDL assignment warning at i2c_com.v(29): truncated value with size 32 to match size of target (1) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v Line: 29
-Warning (10230): Verilog HDL assignment warning at i2c_com.v(30): truncated value with size 32 to match size of target (1) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v Line: 30
-Warning (10230): Verilog HDL assignment warning at i2c_com.v(41): truncated value with size 32 to match size of target (6) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v Line: 41
-Info (12128): Elaborating entity "CMOS_Capture" for hierarchy "CMOS_Capture:u1_CMOS_Capture" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 159
-Info (12128): Elaborating entity "color_bar" for hierarchy "color_bar:u_color_bar" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 204
-Info (12128): Elaborating entity "Sdram_Control_4Port" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 258
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(373): truncated value with size 32 to match size of target (10) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 373
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(410): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 410
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(412): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 412
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(413): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 413
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(414): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 414
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(415): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 415
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(416): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 416
-Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rWR1_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rWR2_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rRD1_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rRD2_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD2_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rRD1_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR2_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (10041): Inferred latch for "rWR1_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
-Info (12128): Elaborating entity "Sdram_PLL" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 207
-Info (12128): Elaborating entity "altpll" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
-Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
-Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
+Info (12128): Elaborating entity "cmos2_reg_config" for hierarchy "cmos2_reg_config:cmos_config_1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 123
+Info (12128): Elaborating entity "i2c_com" for hierarchy "cmos2_reg_config:cmos_config_1|i2c_com:u1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v Line: 30
+Warning (10230): Verilog HDL assignment warning at i2c_com.v(29): truncated value with size 32 to match size of target (1) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 29
+Warning (10230): Verilog HDL assignment warning at i2c_com.v(30): truncated value with size 32 to match size of target (1) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 30
+Warning (10230): Verilog HDL assignment warning at i2c_com.v(41): truncated value with size 32 to match size of target (6) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 41
+Info (12128): Elaborating entity "CMOS_Capture" for hierarchy "CMOS_Capture:u1_CMOS_Capture" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 159
+Info (12128): Elaborating entity "color_bar" for hierarchy "color_bar:u_color_bar" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 204
+Info (12128): Elaborating entity "Sdram_Control_4Port" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 258
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(373): truncated value with size 32 to match size of target (10) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 373
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(410): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 410
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(412): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 412
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(413): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 413
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(414): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 414
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(415): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 415
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(416): truncated value with size 32 to match size of target (23) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 416
+Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rWR1_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rWR2_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rRD1_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Warning (10240): Verilog HDL Always Construct warning at Sdram_Control_4Port.v(407): inferring latch(es) for variable "rRD2_MAX_ADDR", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD2_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rRD1_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR2_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[0]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[1]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[2]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[3]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[4]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[5]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[6]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[7]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[8]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[9]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[10]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[11]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[12]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[13]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[14]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[15]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[16]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[17]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[18]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[19]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[20]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[21]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (10041): Inferred latch for "rWR1_MAX_ADDR[22]" at Sdram_Control_4Port.v(407) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 407
+Info (12128): Elaborating entity "Sdram_PLL" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 207
+Info (12128): Elaborating entity "altpll" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
+Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
+Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v Line: 107
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -3313,22 +3313,22 @@ Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Po
     Info (12134): Parameter "self_reset_on_loss_lock" = "OFF"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/sdram_pll_altpll.v
-    Info (12023): Found entity 1: Sdram_PLL_altpll File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v Line: 30
+    Info (12023): Found entity 1: Sdram_PLL_altpll File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v Line: 30
 Info (12128): Elaborating entity "Sdram_PLL_altpll" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_PLL:sdram_pll1|altpll:altpll_component|Sdram_PLL_altpll:auto_generated" File: d:/edatools/quartus18/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "control_interface" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|control_interface:control1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 226
-Warning (10230): Verilog HDL assignment warning at control_interface.v(103): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 103
-Warning (10230): Verilog HDL assignment warning at control_interface.v(107): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 107
-Warning (10230): Verilog HDL assignment warning at control_interface.v(131): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 131
-Info (12128): Elaborating entity "command" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 252
-Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe_shift", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/command.v Line: 208
-Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe1", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/command.v Line: 208
-Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe2", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/command.v Line: 208
-Info (12128): Elaborating entity "sdr_data_path" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|sdr_data_path:data_path1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 261
-Warning (10230): Verilog HDL assignment warning at sdr_data_path.v(23): truncated value with size 32 to match size of target (2) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 23
-Info (12128): Elaborating entity "Sdram_FIFO" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 274
-Info (12128): Elaborating entity "dcfifo" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
-Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
-Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
+Info (12128): Elaborating entity "control_interface" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|control_interface:control1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 226
+Warning (10230): Verilog HDL assignment warning at control_interface.v(103): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 103
+Warning (10230): Verilog HDL assignment warning at control_interface.v(107): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 107
+Warning (10230): Verilog HDL assignment warning at control_interface.v(131): truncated value with size 32 to match size of target (16) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v Line: 131
+Info (12128): Elaborating entity "command" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|command:command1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 252
+Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe_shift", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v Line: 208
+Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe1", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v Line: 208
+Warning (10240): Verilog HDL Always Construct warning at command.v(208): inferring latch(es) for variable "oe2", which holds its previous value in one or more paths through the always construct File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v Line: 208
+Info (12128): Elaborating entity "sdr_data_path" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|sdr_data_path:data_path1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 261
+Warning (10230): Verilog HDL assignment warning at sdr_data_path.v(23): truncated value with size 32 to match size of target (2) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v Line: 23
+Info (12128): Elaborating entity "Sdram_FIFO" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v Line: 274
+Info (12128): Elaborating entity "dcfifo" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
+Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
+Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v Line: 96
     Info (12134): Parameter "add_ram_output_register" = "OFF"
     Info (12134): Parameter "clocks_are_synchronized" = "FALSE"
     Info (12134): Parameter "intended_device_family" = "Cyclone"
@@ -3341,55 +3341,55 @@ Info (12133): Instantiated megafunction "Sdram_Control_4Port:u_Sdram_Control_4Po
     Info (12134): Parameter "overflow_checking" = "ON"
     Info (12134): Parameter "underflow_checking" = "ON"
     Info (12134): Parameter "use_eab" = "ON"
-Warning (287001): Assertion warning: Number of metastability protection registers is not specified. Based on the parameter value CLOCKS_ARE_SYNCHRONIZED=FALSE, the synchronization register chain length between read and write clock domains will be 2 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 161
-Warning (287001): Assertion warning: Device family Cyclone IV E does not have M4K blocks -- using available memory blocks File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 164
+Warning (287001): Assertion warning: Number of metastability protection registers is not specified. Based on the parameter value CLOCKS_ARE_SYNCHRONIZED=FALSE, the synchronization register chain length between read and write clock domains will be 2 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 161
+Warning (287001): Assertion warning: Device family Cyclone IV E does not have M4K blocks -- using available memory blocks File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 164
 Info (12021): Found 1 design units, including 1 entities, in source file db/dcfifo_gbo1.tdf
-    Info (12023): Found entity 1: dcfifo_gbo1 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 40
+    Info (12023): Found entity 1: dcfifo_gbo1 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 40
 Info (12128): Elaborating entity "dcfifo_gbo1" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated" File: d:/edatools/quartus18/quartus/libraries/megafunctions/dcfifo.tdf Line: 190
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_gray2bin_8ib.tdf
-    Info (12023): Found entity 1: a_gray2bin_8ib File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_gray2bin_8ib.tdf Line: 22
-Info (12128): Elaborating entity "a_gray2bin_8ib" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rdptr_g_gray2bin" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 55
+    Info (12023): Found entity 1: a_gray2bin_8ib File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_gray2bin_8ib.tdf Line: 22
+Info (12128): Elaborating entity "a_gray2bin_8ib" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_gray2bin_8ib:rdptr_g_gray2bin" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 55
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_graycounter_777.tdf
-    Info (12023): Found entity 1: a_graycounter_777 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_graycounter_777.tdf Line: 24
-Info (12128): Elaborating entity "a_graycounter_777" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 59
+    Info (12023): Found entity 1: a_graycounter_777 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_graycounter_777.tdf Line: 24
+Info (12128): Elaborating entity "a_graycounter_777" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_777:rdptr_g1p" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 59
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_graycounter_3lc.tdf
-    Info (12023): Found entity 1: a_graycounter_3lc File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/a_graycounter_3lc.tdf Line: 24
-Info (12128): Elaborating entity "a_graycounter_3lc" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 60
+    Info (12023): Found entity 1: a_graycounter_3lc File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/a_graycounter_3lc.tdf Line: 24
+Info (12128): Elaborating entity "a_graycounter_3lc" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|a_graycounter_3lc:wrptr_g1p" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 60
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_2u81.tdf
-    Info (12023): Found entity 1: altsyncram_2u81 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/altsyncram_2u81.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_2u81" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|altsyncram_2u81:fifo_ram" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 61
+    Info (12023): Found entity 1: altsyncram_2u81 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/altsyncram_2u81.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_2u81" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|altsyncram_2u81:fifo_ram" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 61
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_qe9.tdf
-    Info (12023): Found entity 1: dffpipe_qe9 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_qe9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_qe9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:rs_brp" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 68
+    Info (12023): Found entity 1: dffpipe_qe9 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_qe9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_qe9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|dffpipe_qe9:rs_brp" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 68
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_apl.tdf
-    Info (12023): Found entity 1: alt_synch_pipe_apl File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf Line: 26
-Info (12128): Elaborating entity "alt_synch_pipe_apl" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 70
+    Info (12023): Found entity 1: alt_synch_pipe_apl File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf Line: 26
+Info (12128): Elaborating entity "alt_synch_pipe_apl" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 70
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_re9.tdf
-    Info (12023): Found entity 1: dffpipe_re9 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_re9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_re9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp|dffpipe_re9:dffpipe13" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf Line: 34
+    Info (12023): Found entity 1: dffpipe_re9 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_re9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_re9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_apl:rs_dgwp|dffpipe_re9:dffpipe13" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_apl.tdf Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_bpl.tdf
-    Info (12023): Found entity 1: alt_synch_pipe_bpl File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf Line: 26
-Info (12128): Elaborating entity "alt_synch_pipe_bpl" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 73
+    Info (12023): Found entity 1: alt_synch_pipe_bpl File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf Line: 26
+Info (12128): Elaborating entity "alt_synch_pipe_bpl" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 73
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_se9.tdf
-    Info (12023): Found entity 1: dffpipe_se9 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dffpipe_se9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_se9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp|dffpipe_se9:dffpipe16" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf Line: 34
+    Info (12023): Found entity 1: dffpipe_se9 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dffpipe_se9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_se9" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|alt_synch_pipe_bpl:ws_dgrp|dffpipe_se9:dffpipe16" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/alt_synch_pipe_bpl.tdf Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_p76.tdf
-    Info (12023): Found entity 1: cmpr_p76 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cmpr_p76.tdf Line: 22
-Info (12128): Elaborating entity "cmpr_p76" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:rdempty_eq_comp" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 80
-Info (12128): Elaborating entity "getPos" for hierarchy "getPos:u_getPos" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 275
-Info (12128): Elaborating entity "getPosedge" for hierarchy "getPos:u_getPos|getPosedge:u1_getPosedge" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/getPos/getPos.v Line: 22
-Info (12128): Elaborating entity "key" for hierarchy "key:u_key" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 283
-Warning (10230): Verilog HDL assignment warning at key.v(32): truncated value with size 32 to match size of target (11) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/key.v Line: 32
-Info (12128): Elaborating entity "sobel_top" for hierarchy "sobel_top:u_sobel_top" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 302
-Info (12128): Elaborating entity "YCbCr" for hierarchy "sobel_top:u_sobel_top|YCbCr:u_YCbCr" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_top.v Line: 37
-Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cb2" assigned a value but never read File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
-Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cr2" assigned a value but never read File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
-Info (12128): Elaborating entity "sobel_filtering" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_top.v Line: 54
-Info (12128): Elaborating entity "opr_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 64
-Info (12128): Elaborating entity "shift_ip_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/opr_3.v Line: 34
-Info (12128): Elaborating entity "altshift_taps" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
+    Info (12023): Found entity 1: cmpr_p76 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cmpr_p76.tdf Line: 22
+Info (12128): Elaborating entity "cmpr_p76" for hierarchy "Sdram_Control_4Port:u_Sdram_Control_4Port|Sdram_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_gbo1:auto_generated|cmpr_p76:rdempty_eq_comp" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/dcfifo_gbo1.tdf Line: 80
+Info (12128): Elaborating entity "getPos" for hierarchy "getPos:u_getPos" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 275
+Info (12128): Elaborating entity "getPosedge" for hierarchy "getPos:u_getPos|getPosedge:u1_getPosedge" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v Line: 22
+Info (12128): Elaborating entity "key" for hierarchy "key:u_key" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 283
+Warning (10230): Verilog HDL assignment warning at key.v(32): truncated value with size 32 to match size of target (11) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/key.v Line: 32
+Info (12128): Elaborating entity "sobel_top" for hierarchy "sobel_top:u_sobel_top" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 302
+Info (12128): Elaborating entity "YCbCr" for hierarchy "sobel_top:u_sobel_top|YCbCr:u_YCbCr" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v Line: 37
+Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cb2" assigned a value but never read File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
+Warning (10036): Verilog HDL or VHDL warning at YCbCr.v(12): object "Cr2" assigned a value but never read File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 12
+Info (12128): Elaborating entity "sobel_filtering" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v Line: 54
+Info (12128): Elaborating entity "opr_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v Line: 64
+Info (12128): Elaborating entity "shift_ip_3" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v Line: 34
+Info (12128): Elaborating entity "altshift_taps" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v Line: 80
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
     Info (12134): Parameter "lpm_hint" = "RAM_BLOCK_TYPE=M9K"
     Info (12134): Parameter "lpm_type" = "altshift_taps"
@@ -3397,27 +3397,27 @@ Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|sobel_filtering:u
     Info (12134): Parameter "tap_distance" = "640"
     Info (12134): Parameter "width" = "8"
 Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_7rv.tdf
-    Info (12023): Found entity 1: shift_taps_7rv File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 26
+    Info (12023): Found entity 1: shift_taps_7rv File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 26
 Info (12128): Elaborating entity "shift_taps_7rv" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated" File: d:/edatools/quartus18/quartus/libraries/megafunctions/altshift_taps.tdf Line: 103
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_pja1.tdf
-    Info (12023): Found entity 1: altsyncram_pja1 File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/altsyncram_pja1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_pja1" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|altsyncram_pja1:altsyncram2" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 35
+    Info (12023): Found entity 1: altsyncram_pja1 File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/altsyncram_pja1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_pja1" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|altsyncram_pja1:altsyncram2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 35
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3uf.tdf
-    Info (12023): Found entity 1: cntr_3uf File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cntr_3uf.tdf Line: 27
-Info (12128): Elaborating entity "cntr_3uf" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|cntr_3uf:cntr1" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 36
+    Info (12023): Found entity 1: cntr_3uf File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cntr_3uf.tdf Line: 27
+Info (12128): Elaborating entity "cntr_3uf" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|cntr_3uf:cntr1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/shift_taps_7rv.tdf Line: 36
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_7ic.tdf
-    Info (12023): Found entity 1: cmpr_7ic File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cmpr_7ic.tdf Line: 22
-Info (12128): Elaborating entity "cmpr_7ic" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|cntr_3uf:cntr1|cmpr_7ic:cmpr4" File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/cntr_3uf.tdf Line: 85
-Info (12128): Elaborating entity "seg_dynamic" for hierarchy "seg_dynamic:u_seg_dynamic" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/ov5640_pip.v Line: 327
-Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(111): truncated value with size 8 to match size of target (4) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 111
-Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(124): truncated value with size 8 to match size of target (4) File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 124
-Info (12128): Elaborating entity "binary_8421" for hierarchy "seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 163
+    Info (12023): Found entity 1: cmpr_7ic File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cmpr_7ic.tdf Line: 22
+Info (12128): Elaborating entity "cmpr_7ic" for hierarchy "sobel_top:u_sobel_top|sobel_filtering:u_sobel_filtering|opr_3:opr_3_m0|shift_ip_3:shift_ip_3_m0|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_7rv:auto_generated|cntr_3uf:cntr1|cmpr_7ic:cmpr4" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/cntr_3uf.tdf Line: 85
+Info (12128): Elaborating entity "seg_dynamic" for hierarchy "seg_dynamic:u_seg_dynamic" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v Line: 327
+Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(111): truncated value with size 8 to match size of target (4) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 111
+Warning (10230): Verilog HDL assignment warning at seg_dynamic.v(124): truncated value with size 8 to match size of target (4) File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 124
+Info (12128): Elaborating entity "binary_8421" for hierarchy "seg_dynamic:u_seg_dynamic|binary_8421:binary_8421_inst" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v Line: 163
 Info (278001): Inferred 3 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult0" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult2" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "sobel_top:u_sobel_top|YCbCr:u_YCbCr|Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "8"
     Info (12134): Parameter "LPM_WIDTHP" = "16"
@@ -3431,10 +3431,10 @@ Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: d:/edatools/quartus18/quartus/libraries/megafunctions/multcore.tdf Line: 228
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: d:/edatools/quartus18/quartus/libraries/megafunctions/mpar_add.tdf Line: 78
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_lgh.tdf
-    Info (12023): Found entity 1: add_sub_lgh File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_lgh.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_lgh File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_lgh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1|altshift:external_latency_ffs", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult1" File: d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "7"
     Info (12134): Parameter "LPM_WIDTHP" = "15"
@@ -3448,10 +3448,10 @@ Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: d:/edatools/quartus18/quartus/libraries/megafunctions/multcore.tdf Line: 228
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: d:/edatools/quartus18/quartus/libraries/megafunctions/mpar_add.tdf Line: 78
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_kgh.tdf
-    Info (12023): Found entity 1: add_sub_kgh File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_kgh.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_kgh File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_kgh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult0" File: d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
-Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
-Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" with the following parameter: File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12130): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
+Info (12133): Instantiated megafunction "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" with the following parameter: File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v Line: 21
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "5"
     Info (12134): Parameter "LPM_WIDTHP" = "13"
@@ -3465,14 +3465,14 @@ Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: d:/edatools/quartus18/quartus/libraries/megafunctions/multcore.tdf Line: 228
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: d:/edatools/quartus18/quartus/libraries/megafunctions/mpar_add.tdf Line: 78
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_bfh.tdf
-    Info (12023): Found entity 1: add_sub_bfh File: D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/db/add_sub_bfh.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_bfh File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/add_sub_bfh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2|altshift:external_latency_ffs", which is child of megafunction instantiation "sobel_top:u_sobel_top|YCbCr:u_YCbCr|lpm_mult:Mult2" File: d:/edatools/quartus18/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
 Warning (12241): 10 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info (13000): Registers with preset signals will power-up high File: D:/PrjWorkspace/OV5640/OV5640_v1/rtl/cmos/i2c_com.v Line: 20
+Info (13000): Registers with preset signals will power-up high File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v Line: 20
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/output_files/OV5640.map.smsg
+Info (144001): Generated suppressed messages file D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/output_files/OV5640.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 3105 device resources after synthesis - the final resource count might be different
@@ -3483,15 +3483,15 @@ Info (21057): Implemented 3105 device resources after synthesis - the final reso
     Info (21064): Implemented 80 RAM segments
     Info (21065): Implemented 2 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 4811 megabytes
-    Info: Processing ended: Wed Mar 23 21:27:54 2022
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:36
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Mon Apr 11 18:54:32 2022
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:37
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/PrjWorkspace/OV5640/OV5640_v1/quartusPrj/output_files/OV5640.map.smsg.
+The suppressed messages can be found in D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/output_files/OV5640.map.smsg.
 
 

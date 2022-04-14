@@ -12,6 +12,14 @@ reg                    [   9:0]         Gx1,Gx3,Gy1,Gy3,Gx,Gy      ;
 reg                    [  10:0]         G                          ;
 //parameter value = 11'd75;
 
+//--------------------------------------------------- 矩阵顺序
+//        {matrix_11, matrix_12, matrix_13}
+//        {matrix_21, matrix_22, matrix_23}
+//        {matrix_31, matrix_32, matrix_33}
+
+//--------------------------------------------------- 模块例化
+wire                   [   7:0]         matrix_11, matrix_12, matrix_13,matrix_21,matrix_22, matrix_23, matrix_31, matrix_32, matrix_33;
+
 //==========================================================================
 //==    Sobel处理，耗费3clk
 //==========================================================================
@@ -39,14 +47,7 @@ end
 
 assign sobel_data = ((G > key_value) && Y_de) ? 1'b0 : 1'b1;
 
-//--------------------------------------------------- 矩阵顺序
-//        {matrix_11, matrix_12, matrix_13}
-//        {matrix_21, matrix_22, matrix_23}
-//        {matrix_31, matrix_32, matrix_33}
-
-//--------------------------------------------------- 模块例化
-wire                   [   7:0]         matrix_11, matrix_12, matrix_13,matrix_21,matrix_22, matrix_23, matrix_31, matrix_32, matrix_33;
-
+// opr 3
 opr_3 opr_3_m0
 (
     .clk                               (clk                       ),

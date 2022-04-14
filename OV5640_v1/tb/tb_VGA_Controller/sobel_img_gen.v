@@ -84,6 +84,12 @@ always @(*) begin
     end
 end
 
+// end time
+initial begin
+    #50_000_000;
+    $stop;
+end
+
 // inst color_bar
 color_bar u_color_bar (
     // input

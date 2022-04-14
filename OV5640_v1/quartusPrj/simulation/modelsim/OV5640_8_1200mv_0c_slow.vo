@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition"
 
-// DATE "03/23/2022 21:28:20"
+// DATE "04/11/2022 18:54:58"
 
 // 
 // Device: Altera EP4CE6F17C8 Package FBGA256
@@ -67,7 +67,7 @@ module ov5640_pip (
 	SEL);
 input 	CLOCK_50;
 input 	RST_N;
-output 	[15:0] DRAM_DQ;
+inout 	[15:0] DRAM_DQ;
 output 	[11:0] DRAM_ADDR;
 output 	DRAM_LDQM;
 output 	DRAM_UDQM;
@@ -85,14 +85,14 @@ output 	[4:0] VGA_R;
 output 	[5:0] VGA_G;
 output 	[4:0] VGA_B;
 output 	CMOS1_SCL;
-output 	CMOS1_SDA;
+inout 	CMOS1_SDA;
 input 	CMOS1_VSYNC;
 input 	CMOS1_HREF;
 input 	CMOS1_PCLK;
 input 	[7:0] CMOS1_D;
 output 	CMOS1_RESET;
 output 	CMOS2_SCL;
-output 	CMOS2_SDA;
+inout 	CMOS2_SDA;
 input 	CMOS2_VSYNC;
 input 	CMOS2_HREF;
 input 	CMOS2_PCLK;

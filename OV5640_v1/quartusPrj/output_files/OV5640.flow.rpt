@@ -1,5 +1,5 @@
 Flow report for OV5640
-Wed Mar 23 21:28:22 2022
+Mon Apr 11 18:54:59 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 23 21:28:22 2022           ;
+; Flow Status                        ; Successful - Mon Apr 11 18:54:59 2022           ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
 ; Revision Name                      ; OV5640                                          ;
 ; Top-level Entity Name              ; ov5640_pip                                      ;
@@ -64,42 +64,49 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/23/2022 21:27:31 ;
+; Start date & time ; 04/11/2022 18:54:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; OV5640              ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                     ;
-+-------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                                           ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 141734661985400.164804205116916                 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                     ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                              ; <None>        ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                            ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                              ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/image_process/shift_ip/shift_ip_3_inst.v ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/image_process/shift_ip/shift_ip_3_bb.v   ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/sdram_4port/sdram_pll/Sdram_PLL_bb.v     ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/sdram_4port/sdram_pll/Sdram_PLL.ppf      ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/clock_pll/clock_pll_bb.v                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; ../rtl/clock_pll/clock_pll.ppf                  ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                            ; --            ; --          ; --             ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                               ; --            ; --          ; --             ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                               ; --            ; --          ; --             ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                      ; --            ; --          ; --             ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                             ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW           ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                    ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; ov5640_pip                                      ; OV5640        ; --          ; --             ;
-+-------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                      ;
++--------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                           ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 141734661985400.164967444807652                 ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                              ; --            ; --          ; sobel_img_gen  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; sobel_img_gen                                   ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                              ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; ../tb/tb_VGA_Controller/sobel_img_gen.v         ; --            ; --          ; sobel_img_gen  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; sobel_img_gen                                   ; --            ; --          ; sobel_img_gen  ;
+; EDA_TEST_BENCH_NAME                  ; sobel_img_gen                                   ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 55 ms                                           ; --            ; --          ; sobel_img_gen  ;
+; EDA_TIME_SCALE                       ; 1 ps                                            ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                               ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/image_process/shift_ip/shift_ip_3_inst.v ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/image_process/shift_ip/shift_ip_3_bb.v   ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/sdram_4port/sdram_pll/Sdram_PLL_bb.v     ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/sdram_4port/sdram_pll/Sdram_PLL.ppf      ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/clock_pll/clock_pll_bb.v                 ; --            ; --          ; --             ;
+; MISC_FILE                            ; ../rtl/clock_pll/clock_pll.ppf                  ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                            ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                               ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                               ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                      ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                      ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)          ; --            ; ov5640_pip  ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                             ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW           ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                    ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; ov5640_pip                                      ; OV5640        ; --          ; --             ;
++--------------------------------------+-------------------------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -107,12 +114,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4811 MB             ; 00:00:36                           ;
-; Fitter               ; 00:00:15     ; 1.1                     ; 5576 MB             ; 00:00:24                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4674 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 4795 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4686 MB             ; 00:00:03                           ;
-; Total                ; 00:00:46     ; --                      ; --                  ; 00:01:09                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4821 MB             ; 00:00:37                           ;
+; Fitter               ; 00:00:15     ; 1.1                     ; 5560 MB             ; 00:00:22                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 4797 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4685 MB             ; 00:00:03                           ;
+; Total                ; 00:00:47     ; --                      ; --                  ; 00:01:07                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
