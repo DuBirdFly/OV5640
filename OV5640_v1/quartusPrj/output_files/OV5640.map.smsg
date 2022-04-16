@@ -1,2 +1,2 @@
-Info (10281): Verilog HDL Declaration information at color_bar.v(74): object "H_ACTIVE" differs only in case from object "h_active" in the same scope File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 74
-Info (10281): Verilog HDL Declaration information at color_bar.v(78): object "V_ACTIVE" differs only in case from object "v_active" in the same scope File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 78
+Info (10281): Verilog HDL Declaration information at color_bar.v(46): object "H_ACTIVE" differs only in case from object "h_active" in the same scope File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 46
+Info (10281): Verilog HDL Declaration information at color_bar.v(50): object "V_ACTIVE" differs only in case from object "v_active" in the same scope File: D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v Line: 50
