@@ -5,7 +5,7 @@ function con_img = drawRGB(sobel_img)
 
 [ROW, COL] = size(sobel_img);         % 得到图像行列数
 
-con_img = zeros(100,100,3);
+con_img = zeros(ROW,COL,3);
 for y = 1:ROW           % [1~100]
     for x = 1:COL       % [1~100]
         if sobel_img(y,x) == 0
