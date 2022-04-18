@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 va_graycounter
-Z1 !s110 1649941963
+Z1 !s110 1650275270
 !i10b 1
 !s100 _YHG4>Cn_SB4[jlRl?gNM3
 If5R5h8dC2YM1j<0J<MN6d1
@@ -23,7 +23,7 @@ Z6 OL;L;10.7;67
 r1
 !s85 0
 31
-Z7 !s108 1649941962.000000
+Z7 !s108 1650275270.000000
 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 Z8 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 !i113 0
@@ -1230,7 +1230,7 @@ R8
 R9
 R10
 vlcell
-!s110 1649941962
+R1
 !i10b 1
 !s100 0iHR7LCSWH`2lX8KA=J;13
 I?YUZjSOZ[IbYb[SN2L4`G2

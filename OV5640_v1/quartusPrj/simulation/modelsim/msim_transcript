@@ -26,7 +26,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/edatools/quartus18/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:40 on Apr 14,2022
+# Start time: 17:47:47 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/edatools/quartus18/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -108,7 +108,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 21:12:40 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:47 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -119,7 +119,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/edatools/quartus18/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:41 on Apr 14,2022
+# Start time: 17:47:48 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/edatools/quartus18/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -183,7 +183,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 21:12:41 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:48 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -194,7 +194,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/edatools/quartus18/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:42 on Apr 14,2022
+# Start time: 17:47:49 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/edatools/quartus18/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -236,7 +236,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 21:12:42 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:49 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -247,7 +247,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:42 on Apr 14,2022
+# Start time: 17:47:50 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -377,7 +377,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 21:12:43 on Apr 14,2022, Elapsed time: 0:00:01
+# End time: 17:47:50 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -388,7 +388,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:44 on Apr 14,2022
+# Start time: 17:47:51 on Apr 18,2022
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -471,7 +471,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 21:12:45 on Apr 14,2022, Elapsed time: 0:00:01
+# End time: 17:47:52 on Apr 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -482,7 +482,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {d:/edatools/quartus18/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:46 on Apr 14,2022
+# Start time: 17:47:52 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/edatools/quartus18/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -560,7 +560,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 21:12:46 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:53 on Apr 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -576,285 +576,285 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:47 on Apr 14,2022
+# Start time: 17:47:54 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/seg_dynamic.v 
 # -- Compiling module seg_dynamic
 # 
 # Top level modules:
 # 	seg_dynamic
-# End time: 21:12:47 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:54 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:47 on Apr 14,2022
+# Start time: 17:47:54 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v 
 # -- Compiling module binary_8421
 # 
 # Top level modules:
 # 	binary_8421
-# End time: 21:12:47 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:54 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/key.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:47 on Apr 14,2022
+# Start time: 17:47:54 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/key.v 
 # -- Compiling module key
 # 
 # Top level modules:
 # 	key
-# End time: 21:12:47 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:47 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_top.v 
 # -- Compiling module sobel_top
 # 
 # Top level modules:
 # 	sobel_top
-# End time: 21:12:47 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:47 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v 
 # -- Compiling module sobel_filtering
 # 
 # Top level modules:
 # 	sobel_filtering
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:01
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v 
 # -- Compiling module opr_3
 # 
 # Top level modules:
 # 	opr_3
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/shift_ip/shift_ip_3.v 
 # -- Compiling module shift_ip_3
 # 
 # Top level modules:
 # 	shift_ip_3
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/ov5640_pip.v 
 # -- Compiling module ov5640_pip
 # 
 # Top level modules:
 # 	ov5640_pip
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/video_define.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/video_define.v 
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_pll/Sdram_PLL.v 
 # -- Compiling module Sdram_PLL
 # 
 # Top level modules:
 # 	Sdram_PLL
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:48 on Apr 14,2022
+# Start time: 17:47:55 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdram_fifo/Sdram_FIFO.v 
 # -- Compiling module Sdram_FIFO
 # 
 # Top level modules:
 # 	Sdram_FIFO
-# End time: 21:12:48 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/Reset_Delay.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/Reset_Delay.v 
 # -- Compiling module Reset_Delay
 # 
 # Top level modules:
 # 	Reset_Delay
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v 
 # -- Compiling module getRGB
 # 
 # Top level modules:
 # 	getRGB
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPosedge.v 
 # -- Compiling module getPosedge
 # 
 # Top level modules:
 # 	getPosedge
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getPos/getPos.v 
 # -- Compiling module getPos
 # 
 # Top level modules:
 # 	getPos
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/YCbCr.v 
 # -- Compiling module YCbCr
 # 
 # Top level modules:
 # 	YCbCr
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/i2c_com.v 
 # -- Compiling module i2c_com
 # 
 # Top level modules:
 # 	i2c_com
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:49 on Apr 14,2022
+# Start time: 17:47:56 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v 
 # -- Compiling module cmos2_reg_config
 # 
 # Top level modules:
 # 	cmos2_reg_config
-# End time: 21:12:49 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:56 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/CMOS_Capture.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/CMOS_Capture.v 
 # -- Compiling module CMOS_Capture
 # 
 # Top level modules:
 # 	CMOS_Capture
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v 
 # -- Compiling module clock_pll
 # 
 # Top level modules:
 # 	clock_pll
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/clock_pll_altpll.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/clock_pll_altpll.v 
 # -- Compiling module clock_pll_altpll
 # 
 # Top level modules:
 # 	clock_pll_altpll
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db/sdram_pll_altpll.v 
 # -- Compiling module Sdram_PLL_altpll
 # 
 # Top level modules:
 # 	Sdram_PLL_altpll
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v 
 # -- Compiling module color_bar
 # 
 # Top level modules:
 # 	color_bar
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Control_4Port.v 
 # -- Compiling module Sdram_Control_4Port
 # 
 # Top level modules:
 # 	Sdram_Control_4Port
-# End time: 21:12:50 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:50 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/sdr_data_path.v 
 # -- Compiling module sdr_data_path
 # 
 # Top level modules:
 # 	sdr_data_path
-# End time: 21:12:51 on Apr 14,2022, Elapsed time: 0:00:01
+# End time: 17:47:57 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:51 on Apr 14,2022
+# Start time: 17:47:57 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v 
 # -- Compiling module control_interface
 # 
 # Top level modules:
 # 	control_interface
-# End time: 21:12:51 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:58 on Apr 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:51 on Apr 14,2022
+# Start time: 17:47:58 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v 
 # -- Compiling module command
 # 
 # Top level modules:
 # 	command
-# End time: 21:12:51 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:58 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller {D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v}
 # Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
-# Start time: 21:12:51 on Apr 14,2022
+# Start time: 17:47:58 on Apr 18,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller" D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v 
 # -- Compiling module sobel_img_gen
 # 
 # Top level modules:
 # 	sobel_img_gen
-# End time: 21:12:51 on Apr 14,2022, Elapsed time: 0:00:00
+# End time: 17:47:58 on Apr 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sobel_img_gen
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sobel_img_gen 
-# Start time: 21:12:51 on Apr 14,2022
+# Start time: 17:47:59 on Apr 18,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading work.sobel_img_gen(fast)
 # Loading work.color_bar(fast)
@@ -862,9 +862,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: 29378  Hostname: LAPTOP-FU74F2BN  ProcessID: 17844
-#           Attempting to use alternate WLF file "./wlftzgx2fr".
+#           Attempting to use alternate WLF file "./wlft34arik".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftzgx2fr
+#           Using alternate file: ./wlft34arik
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -873,16 +873,6 @@
 # ** Note: $stop    : D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v(84)
 #    Time: 54 us  Iteration: 0  Instance: /sobel_img_gen
 # Break in Module sobel_img_gen at D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v line 84
-add wave -position insertpoint sim:/sobel_img_gen/u_color_bar/*
-restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading work.sobel_img_gen(fast)
-# Loading work.color_bar(fast)
-run -continue
-# ** Note: $stop    : D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v(84)
-#    Time: 54 us  Iteration: 0  Instance: /sobel_img_gen
-# Break in Module sobel_img_gen at D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/../tb/tb_VGA_Controller/sobel_img_gen.v line 84
 # Causality operation skipped due to absence of debug database file
-add wave -position insertpoint sim:/sobel_img_gen/*
-# End time: 21:18:37 on Apr 14,2022, Elapsed time: 0:05:46
-# Errors: 0, Warnings: 1
+# End time: 18:21:26 on Apr 18,2022, Elapsed time: 0:33:27
+# Errors: 0, Warnings: 3

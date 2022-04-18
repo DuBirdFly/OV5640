@@ -6,7 +6,6 @@ module tb_VGA_Controller;
 // VGA_Controller Parameters
     parameter                           PERIOD  = 20               ;
 
-
 //  Inputs
 reg                    [   9:0]         iRed                   = 0 ;
 reg                    [   9:0]         iGreen                 = 0 ;

@@ -19,16 +19,16 @@ n@_opt
 Z4 OL;O;10.7;67
 R0
 T_opt1
-!s110 1649941972
-VRIWdO[Sh[HG1]I`aFn[0D2
+!s110 1650275282
+VBK06<EUhPC[5WG7:eg5=G0
 R1
-=1-80e82c2e1478-62581dd4-a7-874
+=1-80e82c2e1478-625d33d0-4d-40f0
 R2
 R3
 n@_opt1
 R4
 vbinary_8421
-Z5 !s110 1649941967
+Z5 !s110 1650275274
 !i10b 1
 !s100 T2U46PC:1?^8:]NQjbY0?1
 I>NTTN7l8iKCI::m0beI;K2
@@ -42,7 +42,7 @@ Z7 OL;L;10.7;67
 r1
 !s85 0
 31
-Z8 !s108 1649941967.000000
+Z8 !s108 1650275274.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic/binary_8421.v|
 !i113 0
@@ -50,7 +50,7 @@ Z9 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -
 Z10 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/seg_dynamic -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
 vclock_pll
-Z11 !s110 1649941970
+Z11 !s110 1650275277
 !i10b 1
 !s100 lJ_8E9J[UX1MGenlZK6c]0
 IdBZcT37EViAYX6Uo>8nn?1
@@ -64,7 +64,7 @@ R7
 r1
 !s85 0
 31
-Z13 !s108 1649941970.000000
+Z13 !s108 1650275277.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/clock_pll/clock_pll.v|
 !i113 0
@@ -94,7 +94,7 @@ R9
 Z16 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
 vcmos2_reg_config
-Z17 !s110 1649941969
+Z17 !s110 1650275276
 !i10b 1
 !s100 6D6SaCFHBf0_KN;`=l8S00
 Idba;24ZdEGjc5mTlSLLHn3
@@ -108,7 +108,7 @@ R7
 r1
 !s85 0
 31
-Z18 !s108 1649941969.000000
+Z18 !s108 1650275276.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/cmos/cmos2_reg_config.v|
 !i113 0
@@ -141,14 +141,14 @@ n@c@m@o@s_@capture
 vcolor_bar
 R11
 !i10b 1
-!s100 hz0BZm]3Q2S@KR8N7N4TL2
-IQKAMi4U7^j4U<;nQN6ETX0
+!s100 [@]UU?hM6]fJ[7MmeRQdj3
+Icn;<[]CVJ1gVfC:Gc@8650
 R6
 R0
-w1649941947
+w1649943214
 8D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v
 FD:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga/color_bar.v
-L0 5
+L0 10
 R7
 r1
 !s85 0
@@ -161,7 +161,7 @@ R9
 !s92 -vlog01compat -work work +incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
 vcommand
-Z20 !s110 1649941971
+Z20 !s110 1650275278
 !i10b 1
 !s100 M9UXgnO2@3UTbzG5Pl>>o2
 I81nlXFjXfT?05?c]j=D9e2
@@ -176,7 +176,7 @@ R7
 r1
 !s85 0
 31
-Z23 !s108 1649941971.000000
+Z23 !s108 1650275278.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Params.h|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/command.v|
 !i113 0
@@ -199,7 +199,7 @@ R7
 r1
 !s85 0
 31
-R23
+R13
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/Sdram_Params.h|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/sdram_4port/control_interface.v|
 !i113 0
@@ -255,11 +255,11 @@ nget@posedge
 vgetRGB
 R17
 !i10b 1
-!s100 68z^6d2AQ^mZCc>7lhRm_3
-Ia_aePRXiDHJ=he[4;zbI03
+!s100 JC_4@4dUIaeJ8o;dQ6kYC1
+I4YE1ig1kHX8oaEG<NcFjL0
 R6
 R0
-w1647950095
+w1649943902
 8D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v
 FD:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/mid_ware/getRGB.v
 L0 8
@@ -298,7 +298,7 @@ R9
 R19
 R3
 vkey
-R5
+Z27 !s110 1650275275
 !i10b 1
 !s100 PU]^I=@C1eiN=z:94<H[m3
 IGeCZBdEk=<EQY5l331Ra_3
@@ -320,7 +320,7 @@ R9
 R26
 R3
 vopr_3
-Z27 !s110 1649941968
+R27
 !i10b 1
 !s100 bQj>K63d?:lRMA=5bd_Ck1
 IQljI0ilhVS2MLC0i]R64K3
@@ -334,7 +334,7 @@ R7
 r1
 !s85 0
 31
-Z28 !s108 1649941968.000000
+Z28 !s108 1650275275.000000
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/opr_3.v|
 !i113 0
@@ -387,7 +387,7 @@ R26
 R3
 n@reset_@delay
 vsdr_data_path
-R20
+R11
 !i10b 1
 !s100 FaRf=BSIe2;<;ZH`cSioN0
 I^<cT5kUYZeHP_BOk:dBhg1
@@ -561,7 +561,7 @@ R7
 r1
 !s85 0
 31
-R8
+R28
 !s107 D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process|D:/PrjWorkspace/OV5640/Prj/OV5640_v1/rtl/image_process/sobel_filtering.v|
 !i113 0
@@ -584,7 +584,7 @@ r1
 !s85 0
 31
 R23
-!s107 D:/PrjWorkspace/Om255
+!s107 D:/PrjWorkspam255
 K4
 z2
 13
@@ -596,7 +596,7 @@ cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 valtera_arriav_pll
 Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
-Z2 !s110 1649941965
+Z2 !s110 1650275272
 !i10b 1
 !s100 P6bOG<Ye[Y8:b]DYJ9:L`1
 IE4igO^T2CX^K]7:R`X;OG3
@@ -612,7 +612,7 @@ Z8 OL;L;10.7;67
 r1
 !s85 0
 31
-Z9 !s108 1649941964.000000
+Z9 !s108 1650275271.000000
 Z10 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|altera_lnsim_ver|d:/edatools/quartus18/quartus/eda/sim_lib/altera_lnsim.sv|
 !i113 0
@@ -668,7 +668,7 @@ R12
 R13
 Xaltera_generic_pll_functions
 R1
-Z14 !s110 1649941964
+Z14 !s110 1650275271
 !i10b 1
 !s100 N8US:hzQD?eF5RkHEiW[d0
 IU6?EA0gIH2UH7IU0LmDgB0
@@ -787,7 +787,7 @@ R13
 n@a@l@t@e@r@a_@l@n@s@i@m_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
 valtera_mult_add
 R1
-R2
+R14
 !i10b 1
 !s100 o3ejA3Ff3D;fJP?RJLe;@1
 I3VmYUl_9;>Uhc^iL6l@bN0
@@ -811,7 +811,7 @@ R12
 R13
 valtera_mult_add_rtl
 R1
-R2
+R14
 !i10b 1
 !s100 ;z8:fYT59cGh[j`L7zOoi0
 I`@k=1EKElJG=5e@9VX]D<3
@@ -980,7 +980,7 @@ R12
 R13
 vama_adder_function
 R1
-R2
+R14
 !i10b 1
 !s100 i3]c@]zkV?0d]61]iGS<22
 I0]I8e89zJ2;VXjzkZLidf3
@@ -1004,7 +1004,7 @@ R12
 R13
 vama_chainout_adder_accumulator_function
 R1
-R2
+R14
 !i10b 1
 !s100 6;ToeWe1R]BT>X0Dh;Tol3
 IW@]:@kXf55fe2Pb[f2MAN2
@@ -1028,7 +1028,7 @@ R12
 R13
 vama_coef_reg_ext_function
 R1
-R2
+R14
 !i10b 1
 !s100 OcM=FP6^z]ndgJd__:m=W2
 I^:V72oP7XnX@G[Q8m[NaJ3
@@ -1052,7 +1052,7 @@ R12
 R13
 vama_data_split_reg_ext_function
 R1
-R2
+R14
 !i10b 1
 !s100 ;T0LXzm0R11kz@XzbVIhP0
 Ig>OY_Q=d]IMJf@3?1IJk^0
@@ -1076,7 +1076,7 @@ R12
 R13
 vama_dynamic_signed_function
 R1
-R2
+R14
 !i10b 1
 !s100 YEE9IX<^Z2UD;`JFgJT4X0
 I;c>A34NGUT[:dPn]cm4a<0
@@ -1124,7 +1124,7 @@ R12
 R13
 vama_multiplier_function
 R1
-R2
+R14
 !i10b 1
 !s100 JeKS]]HBeVA?leN;bk4471
 I[QUDn1I^EmHF8eU?cIVA>0
@@ -1148,7 +1148,7 @@ R12
 R13
 vama_preadder_function
 R1
-R2
+R14
 !i10b 1
 !s100 e_R16@3z0^^diI8KQ[T4h3
 INIQ_<bk1QBX6k;IW;U;We1
@@ -1172,7 +1172,7 @@ R12
 R13
 vama_register_function
 R1
-R2
+R14
 !i10b 1
 !s100 4hC;A[dg?aOBZV2]4D9V12
 IieT>:[QJ7o<hKDW7V8O]z1
@@ -1196,7 +1196,7 @@ R12
 R13
 vama_register_with_ext_function
 R1
-R2
+R14
 !i10b 1
 !s100 TG;`aNBVC0f?;WSX9BLck0
 I0U7CI1EZ`ZcLBh]=VM0FQ2
@@ -1220,7 +1220,7 @@ R12
 R13
 vama_scanchain
 R1
-R2
+R14
 !i10b 1
 !s100 @W]?4W:Jec3<1K9;BU2^X1
 IzPWI]a2O6HWA09dPcKNVz0
@@ -1244,7 +1244,7 @@ R12
 R13
 vama_signed_extension_function
 R1
-R2
+R14
 !i10b 1
 !s100 31=]nX>A7J^n;9R2kjz<l2
 IHRFf0_zA_nIYdM=9gE_d]1
@@ -1268,7 +1268,7 @@ R12
 R13
 vama_systolic_adder_function
 R1
-R2
+R14
 !i10b 1
 !s100 2Tk_LSH_2g>EQaDZiOdVm3
 ImcnS`JW5nN:nQZLL[hBlB2
@@ -1292,7 +1292,7 @@ R12
 R13
 vcommon_14nm_lutram_register
 R1
-R2
+R14
 !i10b 1
 !s100 K6QFnf8l@=M?RJHRM]=YN1
 I4IcNZ9SOG3TAI7b;;?ob[2
@@ -1316,7 +1316,7 @@ R12
 R13
 vcommon_28nm_lutram_register
 R1
-R2
+R14
 !i10b 1
 !s100 0T3?eZJYcMVWg8;U9^Zgl3
 IOKHR6TTFHJ<O?>lO>J?[O0
@@ -1341,7 +1341,7 @@ R13
 vcommon_28nm_mlab_cell_core
 R1
 R15
-R2
+R14
 !i10b 1
 !s100 I[z6=ASAZhN;Cgfk@gE=<0
 IU`of8JFkDWIIP;NSD>?1f1
@@ -1365,7 +1365,7 @@ R12
 R13
 vcommon_28nm_mlab_cell_pulse_generator
 R1
-R2
+R14
 !i10b 1
 !s100 d2[ga@CXU0z;TiAg1DLk73
 IMWhJmz3^S]F0:BGAon?Sd1
@@ -1389,7 +1389,7 @@ R12
 R13
 vcommon_28nm_mlab_latch
 R1
-R2
+R14
 !i10b 1
 !s100 VBQjlalj_Y[]cH;_=8iIQ3
 IXE]bCQ?:BKo@Gl>PdeF<_1
@@ -1414,7 +1414,7 @@ R13
 vcommon_28nm_ram_block
 R1
 R15
-R2
+R14
 !i10b 1
 !s100 ?;b=ibhaj]Mi1K?R`6ATj3
 I=`87QHfkSn:;a8]TfO8LC0
@@ -1438,7 +1438,7 @@ R12
 R13
 vcommon_28nm_ram_pulse_generator
 R1
-R2
+R14
 !i10b 1
 !s100 G?cAG3kj8m>;3^n^20@2k1
 Iog_[<Y:4[CLE2njaJO1cg3
@@ -1462,7 +1462,7 @@ R12
 R13
 vcommon_28nm_ram_register
 R1
-R2
+R14
 !i10b 1
 !s100 X<XSbm2SO^ZM9Nn]SiG0l3
 I01SzKlG_=R@kW5inLV6dd0
@@ -1486,7 +1486,7 @@ R12
 R13
 vcommon_porta_latches
 R1
-R2
+R14
 !i10b 1
 !s100 4;TY]kFAcEQ>N8AF[MoN82
 IUV]8_:];h`Vnk[XhB;]7:3
@@ -1510,7 +1510,7 @@ R12
 R13
 vcommon_porta_registers
 R1
-R2
+R14
 !i10b 1
 !s100 o_g_Hm0P>N;LARn5og5>02
 IifLb5c<bfgHCD;YaS3OkQ2
@@ -1656,8 +1656,7 @@ vfourteennm_altera_iopll
 R1
 R2
 !i10b 1
-!s100 LM@Ti2Z0c^`XV_QWh]DcG3
-m255
+!s100m255
 K4
 z2
 13
@@ -1668,7 +1667,7 @@ z2
 cModel Technology
 Z0 dD:/PrjWorkspace/OV5640/Prj/OV5640_v1/quartusPrj/simulation/modelsim
 va_graycounter
-Z1 !s110 1649941963
+Z1 !s110 1650275270
 !i10b 1
 !s100 _YHG4>Cn_SB4[jlRl?gNM3
 If5R5h8dC2YM1j<0J<MN6d1
@@ -1682,7 +1681,7 @@ Z6 OL;L;10.7;67
 r1
 !s85 0
 31
-Z7 !s108 1649941962.000000
+Z7 !s108 1650275270.000000
 Z8 !s107 d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/edatools/quartus18/quartus/eda/sim_lib/altera_mf.v|
 !i113 0

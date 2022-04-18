@@ -3,6 +3,12 @@
 `timescale  1ns / 1ps
 
 module sobel_img_gen(
+    // sys
+    input                               rst_n                      ,
+    input                               sys_clk                    ,
+    input                               vga_clk                    ,
+
+    // output
     output reg                          VGA_HS                     ,// oVGA_H_SYNC 打1拍
     output reg                          VGA_VS                     ,// oVGA_V_SYNC 打1拍
     output reg                          VGA_DE                     ,// oVGA_DE 打1拍
@@ -16,13 +22,8 @@ module sobel_img_gen(
     parameter                           ROW        = 30            ;
     parameter                           COL        = 30            ;
 
-// sys input
-reg                                     rst_n                  = 0 ;
-reg                                     sys_clk                = 0 ;
-reg                                     vga_clk                = 0 ;
-
 // reg                    [   0:0]         data_men   [ROW*COL - 1:0];//30*30-1 = 899  备份
-reg                    [   0:0]         data_men   [ROW*COL - 1:0];//30*30-1 = 899
+reg                    [   0:0]         data_men   [ROW*COL - 1:0];//30*30-1 = 899  备份
 
 // color_bar Inputs
 reg                    [   9:0]         iRed                   = 0 ;
@@ -45,21 +46,6 @@ assign o_sobel_data = (oVGA_R[0] == 1'b1) ? 1'b1 : 1'b0;            // 只要col
 // init men
 initial begin
     $readmemh("D:/PrjWorkspace/OV5640/Prj/matlab/OV5640/img/img.txt", data_men);
-end
-
-// sys_clk
-initial begin
-    forever #(SYS_PERIOD/2)  sys_clk=~sys_clk;
-end
-
-// vga_clk
-initial begin
-    forever #(VGA_PERIOD/2)  vga_clk=~vga_clk;
-end
-
-// rst_n
-initial begin
-    #(SYS_PERIOD*2) rst_n  =  1;
 end
 
 // data_men_now
@@ -126,7 +112,7 @@ always @(posedge vga_clk or negedge rst_n) begin
 end
 
 // matlab 测试数据
-wire [11:0] matlab_X,matlab_Y;
+wire                   [  11:0]         matlab_X,matlab_Y          ;
 assign matlab_X = (VGA_X < COL) ? VGA_X + 1'b1 : 1'b0;
 assign matlab_Y = (VGA_Y < ROW) ? VGA_Y + 1'b1 : 1'b0;
 
