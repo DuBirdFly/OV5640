@@ -5,7 +5,6 @@
 module sobel_img_gen(
     // sys
     input                               rst_n                      ,
-    input                               sys_clk                    ,
     input                               vga_clk                    ,
 
     // output
@@ -17,10 +16,8 @@ module sobel_img_gen(
     output wire                         o_sobel_data                // 1位的sobel数据
 );
 
-    parameter                           SYS_PERIOD = 20            ;// 系统时钟
-    parameter                           VGA_PERIOD = 20            ;// VGA时钟
-    parameter                           ROW        = 30            ;
-    parameter                           COL        = 30            ;
+localparam                              ROW        = 30            ;
+localparam                              COL        = 30            ;
 
 // reg                    [   0:0]         data_men   [ROW*COL - 1:0];//30*30-1 = 899  备份
 reg                    [   0:0]         data_men   [ROW*COL - 1:0];//30*30-1 = 899  备份
@@ -62,12 +59,6 @@ always @(*) begin
         iRed = 10'b11_1111_1111;
     else
         iRed = 10'b00_0000_0000;
-end
-
-// end time
-initial begin
-    #(VGA_PERIOD*ROW*COL*3);
-    $stop;
 end
 
 // inst color_bar

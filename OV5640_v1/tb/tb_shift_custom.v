@@ -6,10 +6,6 @@ module tb_shift_custom;
 // Parameters
     parameter                           SYS_PERIOD = 20            ;// 系统时钟
     parameter                           VGA_PERIOD = 20            ;// VGA时钟
-    parameter                           ROW  = 30                  ;
-    parameter                           COL  = 30                  ;
-
-// sys
 
 // shift_custom Inputs
 reg                                     vga_clk                = 0 ;
@@ -29,13 +25,17 @@ initial begin
     forever #(VGA_PERIOD/2)  vga_clk=~vga_clk;
 end
 
+// rst_n
 initial begin
-    #(VGA_PERIOD*2) rst_n  =  1;
+    #(SYS_PERIOD*2) rst_n  =  1;
 end
 
+
+
+// inst shift_custom
 shift_custom #(
-    .ROW                               (ROW                       ),
-    .COL                               (COL                       ) 
+    .ROW                               (30                        ),
+    .COL                               (30                        ) 
 )  u_shift_custom (
     .vga_clk                           (vga_clk                   ),
     .rst_n                             (rst_n                     ),
@@ -49,9 +49,9 @@ shift_custom #(
     .px4                               (px4      [   7:0]         ) 
 );
 
-initial
-begin
-
+// end time
+initial begin
+    #((VGA_PERIOD*30*30)*3);
     $stop;
 end
 
